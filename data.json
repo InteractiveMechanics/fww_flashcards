@@ -1,0 +1,44 @@
+{
+    "Characters": [
+        {
+            "Id": 0,
+            "Name": "American Eel",
+            "Genus": "Anguilla rostrata",
+            "Coords": {
+                "x": 29,
+                "y": 29
+            },
+    		"Body": "I may look like a snake, but I'm really a fish. When it's time to lay my eggs, I journey hundreds of miles down the rivers of eastern America and far out into the Atlantic Ocean to breed. When the young eels hatch, they return from the ocean to spend their lives in the rivers, and the cycle starts again.",
+            "Eats": {
+                "Text": "Crustaceans, aquatic insects, small fish",
+                "Id": [1, 2]
+            },
+            "EatenBy": {
+                "Text": "Larger predatory fish, birds of prey, wading birds, small mammals, humans",
+                "Id": [5, 6]
+            },
+            "FoundIn": "Streams, rivers, and muddy or silt-bottomed lakes",
+            "Status": "Once abundant, my numbers declined drastically as dams blocked our way through the rivers, and pollution poisoned the water. Eels need the help of conservationists if we're going to be part of the northeastern wetlands in the future."
+        },
+        {
+            "Id": 1,
+            "Name": "American Shad",
+            "Genus": "Alosa sapidissima",
+            "Coords": {
+                "x": 129,
+                "y": 129
+            },
+    		"Body": "I start life far upstream in freshwater rivers, but move down to the salty waters of the Atlantic to spend my adult life in schools containing thousands of fish. I won't return to the river for 3-6 years, when it's time to swim upstream and lay my eggs. I'm an important food source for both animals and humans—so important, in fact, that several U.S. cities host annual shad festivals to celebrate me!",
+            "Eats": {
+                "Text": "Plankton, shrimp, fish eggs",
+                "Id": [1, 2]
+            },
+            "EatenBy": {
+                "Text": "Larger predatory fish, birds of prey, wading birds, otters, bears, humans",
+                "Id": [5, 6]
+            },
+            "FoundIn": "Freshwater rivers and streams for the first months of life, then coastal Atlantic waters",
+            "Status": "Dams and pollution took a toll on our once-huge numbers, and we all but vanished from many areas. Today, habitat restoration and pollution regulations are helping to rebuild our populations along America's eastern coast."
+        }
+    ]
+}

@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         sass: {
             dev: {
                 files: {
-                    'css/main.css': 'css/Sass/main.scss'
+                    'css/main.css': 'css/sass/main.scss'
                 }
             }
         },
@@ -24,8 +24,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     
-    
-
+    grunt.registerTask('default', ['watch']);
 };
 
 // CLI command: grunt serve 
