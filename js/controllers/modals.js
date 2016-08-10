@@ -5,16 +5,19 @@ Modals = (function() {
     
     var loadModal = function() {
         clearModal();
-        $("#animations").load("/assets/animations/1.html", function() {
-            aniinit();
-        });
+        clearAnimation();
 
         var $modal = $('#modal');
         var id = $(this).data('id');
 
         if ($modal.hasClass('hidden')) {
             $modal.removeClass('hidden');
-            $modal.addClass('in');
+            $('#animation').load('/assets/animations/' + id + '.html', function() {
+                animationInit();
+            });
+            setTimeout(function(){ 
+                $modal.addClass('in');
+            }, 3000);
         }
         $('#modal-template').tmpl(data.Characters[id]).appendTo($modal);
         buildPagination(id);
@@ -31,6 +34,9 @@ Modals = (function() {
     }
     var clearModal = function() {
         $('#modal').html('');
+    }
+    var clearAnimation = function() {
+        $('#animation').html('');
     }
     var bindEvents = function() {
         $(document).on('click tap', '.pagination-control', loadModal);

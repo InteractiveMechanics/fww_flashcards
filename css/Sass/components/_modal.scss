@@ -7,14 +7,21 @@
     background: rgba(0,0,0,0.5);
     z-index: 9;
 
+    &.in .modal-inner {
+        top: 100px;
+    }
+
+    .close {
+        
+    }
+
     .modal-inner {
-        margin: 100px;
-        left: 0;
-        right: 0;
+        width: 1720px;
+        height: 930px;
+        left: 100px;
         top: 0;
-        bottom: 0;
-        background: white;
         position: absolute;
+        transition: 0.5s all;
     }
     .modal-video-container {
         position: absolute;
@@ -22,14 +29,15 @@
         top: 0;
         width: 60%;
         background: gray;
-        bottom: 0;
+        bottom: 50px;
     }
     .modal-content {
         position: absolute;
         right: 0;
         top: 0;
-        bottom: 0;
+        bottom: 50px;
         width: 40%;
+        background: white;
 
         .modal-content-inner {
             padding: 50px;
@@ -43,6 +51,24 @@
             bottom: 0;
             height: 100px;
             position: absolute;
+        }
+    }
+    .modal-pagination {
+        width: 1720px;
+        height: 50px;
+        bottom: 0;
+        position: absolute;
+        color: white;
+
+        .next {
+            float: right;
+            padding: 20px 0;
+            display: block;
+        }
+        .prev {
+            float: left;
+            padding: 20px 0;
+            display: block;
         }
     }
 }

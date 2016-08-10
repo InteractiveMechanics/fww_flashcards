@@ -5,8 +5,8 @@
             "Name": "American Eel",
             "Genus": "Anguilla rostrata",
             "Coords": {
-                "x": 29,
-                "y": 29
+                "x": 55,
+                "y": 283
             },
     		"Body": "I may look like a snake, but I'm really a fish. When it's time to lay my eggs, I journey hundreds of miles down the rivers of eastern America and far out into the Atlantic Ocean to breed. When the young eels hatch, they return from the ocean to spend their lives in the rivers, and the cycle starts again.",
             "Eats": {
@@ -25,8 +25,8 @@
             "Name": "American Shad",
             "Genus": "Alosa sapidissima",
             "Coords": {
-                "x": 129,
-                "y": 129
+                "x": 248,
+                "y": 283
             },
     		"Body": "I start life far upstream in freshwater rivers, but move down to the salty waters of the Atlantic to spend my adult life in schools containing thousands of fish. I won't return to the river for 3-6 years, when it's time to swim upstream and lay my eggs. I'm an important food source for both animals and humans—so important, in fact, that several U.S. cities host annual shad festivals to celebrate me!",
             "Eats": {
