@@ -47,8 +47,9 @@
             overflow: hidden;
             overflow-y: auto;
         }
-        .modal-content-spectrum {
+        .modal-food-chain {
             bottom: 0;
+            width: 100%;
             height: 100px;
             position: absolute;
         }
@@ -70,5 +71,34 @@
             padding: 20px 0;
             display: block;
         }
+    }
+}
+.modal-food-chain {
+    display: flex;
+
+    > div {
+        width: 14.28%;
+    }
+
+    .modal-food-chain-1 {
+        background: #869C5E;
+    }
+    .modal-food-chain-2 {
+        background: #9AA45A;
+    }
+    .modal-food-chain-3 {
+        background: #ADA553;
+    }
+    .modal-food-chain-4 {
+        background: #C3A64C;
+    }
+    .modal-food-chain-5 {
+        background: #D4A645;
+    }
+    .modal-food-chain-6 {
+        background: #E6A63B;
+    }
+    .modal-food-chain-7 {
+        background: #FAA633;
     }
 }
