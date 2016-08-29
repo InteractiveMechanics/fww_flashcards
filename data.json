@@ -100,5 +100,25 @@
             "FoundIn": "Clear, cold streams, rivers, lakes, and ponds",
             "Status": "Habitat loss, erosion, damming, pollution, overfishing, and invasive species have had big effects on my numbers. Brook trout (and mussels) have disappeared from areas where we were once common. We need habitat restoration if we are going to survive."
         },
+        {
+            "Id": 5,
+            "Name": "Bullfrog",
+            "Genus": "Lithobates catesbeianus",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "You may not see us, but you can hear us. Male bullfrogs emit a deep bellow that can be heard up to half a mile away to attract mates and intimidate rivals, especially in the summer breeding season. Our eggs hatch into tadpoles that slowly transform into adult bullfrogs. We’re voracious predators and play a big role in controlling insect populations!",
+            "Eats": {
+                "Text": "Insects, worms, crayfish, small fish, small snakes, other frogs",
+                "Id": [2,3,4,5]
+            },
+            "EatenBy": {
+                "Text": "Larger predatory fish, wading birds, snakes, small mammals, humans",
+                "Id": [6,7]
+            },
+            "FoundIn": "Edges of large, permanent lakes, ponds, and swamps",
+            "Status": "Increased water temperatures and increased amounts of water plants—often signs of pollution—actually work to our advantage, providing good habitats for growth, reproduction, and escape from predators. We are becoming much more common in areas that have been changed by humans, driving out other amphibian species in the process."
+        },
     ]
 }
