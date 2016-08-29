@@ -140,5 +140,25 @@
             "FoundIn": "Streams, rivers, lakes, and permanent or temporary ponds",
             "Status": "Many types of caddisflies are sensitive to water quality and pollution. In fact, counts of our larvae are part of an index widely used by scientists and conservationists to measure water quality."
         },
+        {
+            "Id": 7,
+            "Name": "Damselfly",
+            "Genus": "Multiple species in the suborder Zygoptera in the order Odonata (which also includes dragonflies)",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "We may look like dragonflies, but you can tell us apart if you know what to look for. We are usually smaller and more delicate looking than dragonflies, and we hold our wings along our bodies—not outstretched—when resting. We feed on huge quantities of small insects such as mosquitoes and gnats, helping to keep pest populations in check.",
+            "Eats": {
+                "Text": "Insects, crustaceans",
+                "Id": [2,3]
+            },
+            "EatenBy": {
+                "Text": "Birds, fish, dragonflies, frogs, spiders, aquatic insects",
+                "Id": [4,5,6,7]
+            },
+            "FoundIn": "Bogs, ponds, lakes and rivers with good vegetation",
+            "Status": "We are sensitive to water acidity (pH), water temperature, and water flow rates, and vulnerable to pollution and environmental damage. Our presence can be a good indicator that a wetland habitat is relatively healthy and unpolluted."
+        },
     ]
 }
