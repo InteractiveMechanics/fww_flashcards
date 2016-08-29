@@ -160,5 +160,25 @@
             "FoundIn": "Bogs, ponds, lakes and rivers with good vegetation",
             "Status": "We are sensitive to water acidity (pH), water temperature, and water flow rates, and vulnerable to pollution and environmental damage. Our presence can be a good indicator that a wetland habitat is relatively healthy and unpolluted."
         },
+        {
+            "Id": 8,
+            "Name": "Diatoms",
+            "Genus": "More than 600 species in Pennsylvania and the northeast",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "We are algae, but we encase our soft, singled-celled bodies in hard silica shells that come in an amazing array of geometric designs. Like other algae, we use photosynthesis to turn sunlight into food. In the process, we release oxygen into the water, helping other animals to breathe. We’re the primary food for a wide range of insects, crustaceans, and fish. Without us, life in an aquatic ecosystem can vanish.",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Zooplankton, crustaceans, fish larvae, insect larvae",
+                "Id": [1,2,3]
+            },
+            "FoundIn": "Sunlit zones of almost any aquatic environment",
+            "Status": "When we die, our shells fall into the sediments of rivers, lakes, and oceans. By studying cores taken from these sediments, scientists use our shells to analyze environmental conditions in the past. This helps them understand how pollution, erosion, and climate change are impacting aquatic habitats—and our survival—today."
+        },
     ]
 }
