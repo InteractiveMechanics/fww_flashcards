@@ -120,5 +120,25 @@
             "FoundIn": "Edges of large, permanent lakes, ponds, and swamps",
             "Status": "Increased water temperatures and increased amounts of water plants—often signs of pollution—actually work to our advantage, providing good habitats for growth, reproduction, and escape from predators. We are becoming much more common in areas that have been changed by humans, driving out other amphibian species in the process."
         },
+        {
+            "Id": 6,
+            "Name": "Caddisfly",
+            "Genus": "In North America, more than 1,000 species within order Trichoptera",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Like many aquatic insects, we spend the early stages of our lives completely underwater as larvae. Unlike other insects, however, our larvae are builders! We produce a silk thread that we use to make food-catching nets, stationary homes, or portable cases by sticking together twigs, gravel, sand, or other debris. When it’s time to transform into adult caddisflies, we shed our armored homes, crawl onto land, and spend the rest of our lives as flying insects.",
+            "Eats": {
+                "Text": "Decaying plant and animal matter, algae, small invertebrates",
+                "Id": [1,2]
+            },
+            "EatenBy": {
+                "Text": "Fish, wading birds, amphibians, reptiles",
+                "Id": [5,6,7]
+            },
+            "FoundIn": "Streams, rivers, lakes, and permanent or temporary ponds",
+            "Status": "Many types of caddisflies are sensitive to water quality and pollution. In fact, counts of our larvae are part of an index widely used by scientists and conservationists to measure water quality."
+        },
     ]
 }
