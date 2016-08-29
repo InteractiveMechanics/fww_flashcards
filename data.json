@@ -59,6 +59,26 @@
             },
             "FoundIn": "Shallow-water streams, ponds and lakes",
             "Status": "We survive in many freshwater environments, but are sensitive to water oxygen levels and erosion. These can have an impact on the size and variety of our populations, which affects animals further up the food chain."
-        }
+        },
+        {
+            "Id": 3,
+            "Name": "Bosmina (Water Fleas)",
+            "Genus": "Bosmina, hundreds of possible species",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Although I am commonly called a ͞water flea,͟ I’m really a tiny crustacean, like a shrimp. I use my front legs to comb through the water for microscopic plants and animals, while my back legs have structures that work like nets to capture more. Many creatures rely on me for their food, so I’m a critical link between the algae at the base of the food chain and larger animals at the top.",
+            "Eats": {
+                "Text": "Phytoplankton, zooplankton",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Small fish, tadpoles, spiders, aquatic insects",
+                "Id": [3,4]
+            },
+            "FoundIn": "Many freshwater environments, especially well-oxygenated ponds and lakes",
+            "Status": "Pollution, overheating of water, lack of oxygen, and dangerous blooms of algae can stress my populations. When that happens, I produce eggs that are carried away on the wind and hatch only when conditions in their landing places are just right."
+        },
     ]
 }
