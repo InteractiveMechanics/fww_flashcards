@@ -39,6 +39,26 @@
             },
             "FoundIn": "Freshwater rivers and streams for the first months of life, then coastal Atlantic waters",
             "Status": "Dams and pollution took a toll on our once-huge numbers, and we all but vanished from many areas. Today, habitat restoration and pollution regulations are helping to rebuild our populations along America's eastern coast."
+        },
+        {
+            "Id": 2,
+            "Name": "Amphipods (Scuds)",
+            "Genus": "Multiple freshwater species in Order Amphipoda",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Most people are completely unaware of the thousands of species of amphipods, or ͞scuds,͟ in aquatic habitats, but we tiny crustaceans serve as an important food source for small animals that, in turn, feed larger animals. In waters with few predators, our populations can reach up to 10,000 per square yard. Our feeding habits help keep water healthy and clean for the other animals that share our habitat.",
+            "Eats": {
+                "Text": "Dead plant and animal matter, algae",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Small fish, tadpoles, newts, aquatic insects",
+                "Id": [5, 6, 7]
+            },
+            "FoundIn": "Shallow-water streams, ponds and lakes",
+            "Status": "We survive in many freshwater environments, but are sensitive to pollution, oxygen levels, and erosion. Researchers use the presence, size, and variety of our populations as a key indicator of water quality."
         }
     ]
 }
