@@ -80,5 +80,25 @@
             "FoundIn": "Many freshwater environments, especially well-oxygenated ponds and lakes",
             "Status": "Pollution, overheating of water, lack of oxygen, and dangerous blooms of algae can stress my populations. When that happens, I produce eggs that are carried away on the wind and hatch only when conditions in their landing places are just right."
         },
+        {
+            "Id": 4,
+            "Name": "Brook Trout",
+            "Genus": "Salvelinus fontinalis",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "I’m more than just a fish. I’m a nursery for the tiny young larvae, or ͞glochidia,͟ of freshwater mussels. Floating glochidia attach to my gills, where they live as harmless parasites as they grow. When they’re big enough, the hitchhiking mussels drop off and settle down into the beds of the clear, cold streams that we both need to survive. No brook trout means no mussels!",
+            "Eats": {
+                "Text": "Insects, crustaceans, tadpoles, frogs, mollusks, smaller fish",
+                "Id": [2,3,4]
+            },
+            "EatenBy": {
+                "Text": "Larger predatory fish, birds of prey, wading birds, small mammals, humans",
+                "Id": [6,7]
+            },
+            "FoundIn": "Clear, cold streams, rivers, lakes, and ponds",
+            "Status": "Habitat loss, erosion, damming, pollution, overfishing, and invasive species have had big effects on my numbers. Brook trout (and mussels) have disappeared from areas where we were once common. We need habitat restoration if we are going to survive."
+        },
     ]
 }
