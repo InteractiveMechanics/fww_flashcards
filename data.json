@@ -371,14 +371,114 @@
     		"Body": "As cold-blooded reptiles, soaking up sunlight warms us, gives us the energy to move, and helps rid us of parasites such as leeches that don’t care for light. We like to bask in large groups on logs and rocks. At the first sign of danger, though, our entire group will dive back into the water to hide.",
             "Eats": {
                 "Text": "Aquatic plants, earthworms, insects, crayfish, tadpoles, fish",
-                "Id": [5,6,7]
+                "Id": [1,2,3,4,5]
             },
             "EatenBy": {
                 "Text": "Large fish, wading birds, raccoons, foxes, snakes, hawks",
+                "Id": [7]
+            },
+            "FoundIn": "Marshes, lakes, ponds, rivers, and slow-moving streams with lots of vegetation and logs for sunning",
+            "Status": "With human communities moving in on our habitats, being hit by vehicles is a growing problem, especially since the turtles crossing roads are often pregnant females searching for nesting sites. We also face competition from non-native red-eared sliders released into the wild by pet owners who no longer want them."
+        },
+        {
+            "Id": 19,
+            "Name": "Phytoplankton",
+            "Genus": "Thousands of varieties",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "We are tiny, free-floating, single-celled plants, also called͞algae.͟ A single drop of water from a healthy aquatic environment may have thousands of microscopic phytoplankton in it.  Don’t be fooled by our small size, though. We are the key to life in aquatic habitats because we are the primary producers of oxygen and food, forming the base of the complex food webs in these ecosystems.",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
                 "Id": [0]
             },
-            "FoundIn": "Coastlines, the shores of freshwater lakes and rivers",
-            "Status": "Ospreys are a conservation success story! We were once common in Pennsylvania, but were largely wiped out during the 1950s from the effects of a pesticide called DDT that is now banned. In the 1980s conservationists introduced 6 of us back into the Pennsylvania watershed environment, and now, 35 years later, 100 breeding pairs call this state home."
+            "EatenBy": {
+                "Text": "Zooplankton, crustaceans, shellfish, fish larvae, insect larvae",
+                "Id": [1]
+            },
+            "FoundIn": "Sunlit zones of almost any aquatic environment",
+            "Status": "We are very sensitive to changes in nutrient levels, and can quickly die off or undergo dramatic population explosions called ͞blooms͟ that overwhelm a habitat, and cause other species to die. Because of this sensitivity, our populations are great indicators of pollution levels and habitat health."
+        },
+        {
+            "Id": 20,
+            "Name": "Pickerelweed",
+            "Genus": "Pontederia cordata",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "I grow and produce my purple flowers in areas where water levels change with tides and floods. Since soils in flooded areas are very low in oxygen, I can’t use my roots to get oxygen from the soil. Instead, my stems and leaves have air-filled chambers that help oxygen pass into and through me. Some of the oxygen in these chambers actually leaks into the soil, providing air for microorganisms. In a way, I breathe for them!",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": [0]
+            },
+            "EatenBy": {
+                "Text": "Insects, waterfowl, small mammals",
+                "Id": [7,4]
+            },
+            "FoundIn": "Shorelines, shallow water regions, and boggy areas that flood",
+            "Status": "My survival is under pressure from shrinking wetlands, poor water quality, increased salinity, and invasive aquatic plants such as purple loosestrife and water hyacinth that have few native checks to their growth."
+        },
+        {
+            "Id": 21,
+            "Name": "River Otter",
+            "Genus": "Lontra canadensis",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Our streamlined bodies, webbed toes, and tapered tails are perfectly adapted to our largely aquatic life. Playful and active, our family groups move constantly from place to place in a regular circuit. A solitary male can travel 150 miles a year within a particular watershed! Because of our wandering ways and big appetites, we need large, healthy habitats to survive.",
+            "Eats": {
+                "Text": "Fish, shellfish, crustaceans, amphibians, reptiles, insects, birds, small mammals",
+                "Id": [7,6,5,4]
+            },
+            "EatenBy": {
+                "Text": "Nothing. I’m at the top of the food chain, although humans hunt me for my fur.",
+                "Id": [0]
+            },
+            "FoundIn": "Ponds, lakes, rivers, sloughs, estuaries, bays, and open waters along the coast",
+            "Status": "Pollution, soil erosion, and human development along stream banks, which takes away places where we can dig dens and raise our young, push us out of our habitat. We avoid polluted waterways, so our presence is a sign of good water quality and a healthy food chain from bottom to top."
+        },
+        {
+            "Id": 22,
+            "Name": "Stonefly",
+            "Genus": "In the northeast US/Pennsylvania, more than 100 species within order Plecoptera",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "You can find us in almost every freshwater aquatic environment, and we’re an important food source for many kinds of fish. During the early ͞nymph͟ stages of our lives, we spend 1 to 2 years creeping under submerged rocks and logs, hiding from predators and searching for food. When we transform into our final stage, we crawl out of the water onto stones, molt our tough skins, and emerge as winged adults.",
+            "Eats": {
+                "Text": "Decaying plant and animal matter, algae, small invertebrates",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Fish, wading birds, amphibians, reptiles",
+                "Id": [7,6,5]
+            },
+            "FoundIn": "Clear, swift-moving streams, rivers, and springs",
+            "Status": "Our larvae require clean, well-oxygenated waters to survive, so our presence is a sign that a freshwater ecosystem is healthy. If we disappear from an area, it’s a warning flag that water quality has declined and the ecosystem’s health is in danger."
+        },
+        {
+            "Id": 23,
+            "Name": "Sturgeon",
+            "Genus": "",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "I’m a fish, but my form is a primitive one that goes back many millions of years. My skeleton is mostly cartilage rather than bone, and I have rows of armored plates instead of scales. I hunt using the long barbels hanging under my snout to detect the smell and movement of prey. I can also sense the invisible electric fields generated by all animals.",
+            "Eats": {
+                "Text": "Small crustaceans, fish, other animals sucked up from the river bottom",
+                "Id": [2]
+            },
+            "EatenBy": {
+                "Text": "Larger predatory fish, birds of prey, wading birds, bears, humans ",
+                "Id": [7]
+            },
+            "FoundIn": "Freshwater rivers, river deltas, brackish (salty) estuaries",
+            "Status": "Habitat loss, pollution, overfishing, invasive species, and climate change all threaten my survival. All three East Coast species of my kind are now protected under the Endangered Species Act while conservationists try to rebuild our habitats."
         },
     ]
 }
