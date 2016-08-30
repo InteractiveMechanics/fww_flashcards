@@ -260,5 +260,125 @@
             "FoundIn": "Saltwater and freshwater habitats along shorelines, riverbanks, and the edges of marshes, estuaries, and ponds",
             "Status": "We prize mangroves and thick stands of trees for breeding. Pollution and the destruction of these habitats for coastal development had a bad impact on our numbers, but our population has rebounded in recent years due to wetland conservation efforts."
         },
+        {
+            "Id": 13,
+            "Name": "Largemouth Bass",
+            "Genus": "Micropterus salmoides",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Unlike many animals, the male of our species is responsible for the young. He creates a nest in the riverbed where the female lays thousands of eggs. He fiercely guards the eggs until they hatch, and then stays with the school of larvae for up to a month while they feed on tiny animals and grow large enough to survive on their own. If they live long enough, they’ll become one of the largest predators in the watershed.",
+            "Eats": {
+                "Text": "Fish, crustaceans, insects, frogs, snakes, small water birds",
+                "Id": [7,6,5,4]
+            },
+            "EatenBy": {
+                "Text": "Birds of prey, small mammals, humans",
+                "Id": [7]
+            },
+            "FoundIn": "Almost any type of freshwater river, stream, lake, or reservoir with abundant prey",
+            "Status": "Aquatic plants help slow our voracious hunting by providing cover for prey and making hunting more difficult. When plants disappear due to pollution or habitat degradation, we can decimate other species, and then starve in turn when the prey runs out."
+        },
+        {
+            "Id": 14,
+            "Name": "Maple Leaf",
+            "Genus": " In Pennsylvania, Acer rubrum (Red Maple), Acer saccharinum (Silver Maple)",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "When maple trees drop their leaves in fall and winter, we drift into streams and ponds. There we decay and create a rich layer of organic matter on the streambed that feeds microorganisms, larval insects, and tiny fish that form the base of a healthy food chain. In spring and summer, I also provide anchors for eggs, hiding places for small fish and insects, and hunting platforms for tiny amphibians, insects, and spiders. A floating maple leaf is an ecosystem all its own!",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Plankton, larval insects, larval fish, other microorganisms",
+                "Id": [1]
+            },
+            "FoundIn": "The bottoms of streams, ponds, and lakes",
+            "Status": "Like other trees in the watershed, maples pull pollutants out of the air and water, and provide shade that keeps the water cool. Tree roots also hold the land together, controlling erosion, and reducing deposits of sediment that can choke waterways, kill wildlife, and harm water quality."
+        },
+        {
+            "Id": 15,
+            "Name": "Northern Water Snake",
+            "Genus": "Nerodia sipedon",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "We water snakes are fierce predators, but we are not venomous. I have to hunt by stealth to catch my prey, which I swallow whole. When I feel threatened, I can release a foul-smelling, musky odor to deter predators. However, I’m more likely to escape by submerging beneath the water, where I can stay for up to 90 minutes before coming up for air.",
+            "Eats": {
+                "Text": "Tadpoles, fish, frogs, insects, crustaceans, small birds, small mammals",
+                "Id": [4,5,6,7]
+            },
+            "EatenBy": {
+                "Text": "Larger predatory fish, birds of prey, wading birds, small mammals",
+                "Id": [7]
+            },
+            "FoundIn": "Still ponds, lakes, marshes, shores of rivers and streams",
+            "Status": "Water snakes are a good indicator of a healthy watershed. When conditions are good and prey is plentiful, you can find us in large numbers, feeding on the many creatures that inhabit the watershed and, in turn, providing food for other animals."
+        },
+        {
+            "Id": 16,
+            "Name": "Nuphar",
+            "Genus": "Nuphar advena",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "My round or heart-shaped leaves can grow up to 12 inches wide. They grow from a long stalk anchored by roots to the muddy bottom. These leaves provide resting places for insects and birds, a place where insects and amphibians can attach their eggs, and shade and shelter for fish. In summer, I grow yellow, globe-like flowers with thick petals that encase a pod loaded with seeds—an unusual relic from the earliest evolution of flowering plants.",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Waterfowl, reptiles, small mammals",
+                "Id": [7]
+            },
+            "FoundIn": "Shallow wetland environments with sluggish/calm waters",
+            "Status": "In some areas, invasive plant species have squeezed us out of our natural habitats. Dropping water levels, heating waters, and pollutants are also taking their toll."
+        },
+        {
+            "Id": 17,
+            "Name": "Osprey",
+            "Genus": "Pandion haliaetus",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "We are unique among North American birds of prey for our strict diet of live fish, and our ability to dive and catch them in water up to three feet deep. We search for fish by flying steadily over or circling high above relatively shallow water. We often hover briefly before diving feet-first to grab our prey. Barbed pads on the soles of our feet help us keep a grip on our slippery meals.",
+            "Eats": {
+                "Text": "Fish",
+                "Id": [5,6,7]
+            },
+            "EatenBy": {
+                "Text": "Nothing. I’m at the top of the food chain.",
+                "Id": [0]
+            },
+            "FoundIn": "Coastlines, the shores of freshwater lakes and rivers",
+            "Status": "Ospreys are a conservation success story! We were once common in Pennsylvania, but were largely wiped out during the 1950s from the effects of a pesticide called DDT that is now banned. In the 1980s conservationists introduced 6 of us back into the Pennsylvania watershed environment, and now, 35 years later, 100 breeding pairs call this state home."
+        },
+        {
+            "Id": 18,
+            "Name": "Painted Turtle",
+            "Genus": "Chrysemys picta",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "As cold-blooded reptiles, soaking up sunlight warms us, gives us the energy to move, and helps rid us of parasites such as leeches that don’t care for light. We like to bask in large groups on logs and rocks. At the first sign of danger, though, our entire group will dive back into the water to hide.",
+            "Eats": {
+                "Text": "Aquatic plants, earthworms, insects, crayfish, tadpoles, fish",
+                "Id": [5,6,7]
+            },
+            "EatenBy": {
+                "Text": "Large fish, wading birds, raccoons, foxes, snakes, hawks",
+                "Id": [0]
+            },
+            "FoundIn": "Coastlines, the shores of freshwater lakes and rivers",
+            "Status": "Ospreys are a conservation success story! We were once common in Pennsylvania, but were largely wiped out during the 1950s from the effects of a pesticide called DDT that is now banned. In the 1980s conservationists introduced 6 of us back into the Pennsylvania watershed environment, and now, 35 years later, 100 breeding pairs call this state home."
+        },
     ]
 }
