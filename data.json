@@ -240,5 +240,25 @@
             "FoundIn": "Clean, cold, fast-flowing streams and rivers",
             "Status": "We can’t survive in muddy or silty environments, so erosion and sedimentation of rivers has taken a serious toll on our survival—so serious that we’re now an endangered species. Conservationists are working hard to restore our habitat, save the few of us that are left, and rebuild our populations in the wild."
         },
+        {
+            "Id": 12,
+            "Name": "Great Blue Heron",
+            "Genus": "Ardea herodias",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "I have specially shaped neck vertebrae that give my head and sharp beak a faster and longer strike than normal, making me a top predator in the wetlands. Herons also like to congregate at fish hatcheries, where prey is easy to come by. Fish farmers didn’t care for us at first, but a study discovered that we mostly ate diseased fish that were easy pickings. Our hunting actually improves the health of the other fish.",
+            "Eats": {
+                "Text": "Fish, amphibians, reptiles, large insects, small birds",
+                "Id": [7,6,5,4]
+            },
+            "EatenBy": {
+                "Text": "Large birds of prey, small mammals (especially my eggs)",
+                "Id": [7]
+            },
+            "FoundIn": "Saltwater and freshwater habitats along shorelines, riverbanks, and the edges of marshes, estuaries, and ponds",
+            "Status": "We prize mangroves and thick stands of trees for breeding. Pollution and the destruction of these habitats for coastal development had a bad impact on our numbers, but our population has rebounded in recent years due to wetland conservation efforts."
+        },
     ]
 }
