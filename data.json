@@ -42,7 +42,7 @@
         },
         {
             "Id": 2,
-            "Name": "Amphipods (Scuds)",
+            "Name": "Amphipod (Scud)",
             "Genus": "Multiple freshwater species in Order Amphipoda",
             "Coords": {
                 "x": 55,
@@ -62,7 +62,7 @@
         },
         {
             "Id": 3,
-            "Name": "Bosmina (Water Fleas)",
+            "Name": "Bosmina (Water Flea)",
             "Genus": "Bosmina, hundreds of possible species",
             "Coords": {
                 "x": 55,
@@ -162,7 +162,7 @@
         },
         {
             "Id": 8,
-            "Name": "Diatoms",
+            "Name": "Diatom",
             "Genus": "More than 600 species in Pennsylvania and the northeast",
             "Coords": {
                 "x": 55,
@@ -463,7 +463,7 @@
         {
             "Id": 23,
             "Name": "Sturgeon",
-            "Genus": "",
+            "Genus": "Acipenseridae",
             "Coords": {
                 "x": 55,
                 "y": 283
