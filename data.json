@@ -180,5 +180,25 @@
             "FoundIn": "Sunlit zones of almost any aquatic environment",
             "Status": "When we die, our shells fall into the sediments of rivers, lakes, and oceans. By studying cores taken from these sediments, scientists use our shells to analyze environmental conditions in the past. This helps them understand how pollution, erosion, and climate change are impacting aquatic habitats—and our survival—today."
         },
+        {
+            "Id": 9,
+            "Name": "Diatoms",
+            "Genus": "Erythemis simplicicollis (Eastern Pondhawk), Pachydiplax longipennis (Blue Dasher), Anax junius (Green Darner), Progomphus obscurus (Sanddragon), Libellula vibrans (Great Blue Skimmer), Celithemis eponina (Halloween Pennant), Libellula lydia (Whitetail Skimmer), Perithemis tenera (Eastern Amberwing)",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "For hundreds of millions of years, my kind have been a common sight in many watershed environments, flitting above the surface of the water like flashing jewels in displays of aerial acrobatics. We are ferocious hunters, each one of us eating hundreds of mosquitoes, flies, gnats, midges, and wasps each day.  Because of this, we are important pest controllers, keeping insect populations in check so they don’t overrun a habitat.",
+            "Eats": {
+                "Text": "Small insects",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Tadpoles, fish, snakes, birds",
+                "Id": [1,2,3]
+            },
+            "FoundIn": "Ponds, marshes, shorelines and surfaces of slow moving creeks and rivers, as well as fast-flowing streams",
+            "Status": "Loss of habitat and the pollution of streams are threats to our survival. Many of us need healthy wetland environments with clean water, plants, and healthy insect populations to keep flying."
+        },
     ]
 }
