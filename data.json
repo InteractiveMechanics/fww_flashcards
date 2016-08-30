@@ -474,11 +474,31 @@
                 "Id": [2]
             },
             "EatenBy": {
-                "Text": "Larger predatory fish, birds of prey, wading birds, bears, humans ",
+                "Text": "Larger predatory fish, birds of prey, wading birds, bears, humans",
                 "Id": [7]
             },
             "FoundIn": "Freshwater rivers, river deltas, brackish (salty) estuaries",
             "Status": "Habitat loss, pollution, overfishing, invasive species, and climate change all threaten my survival. All three East Coast species of my kind are now protected under the Endangered Species Act while conservationists try to rebuild our habitats."
+        },
+        {
+            "Id": 24,
+            "Name": "Water Bug",
+            "Genus": "Thousands of species of aquatic and semi-aquatic ͞true bugs͟",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "You might recognize some of our many species as ͞water striders͟—surface dwelling water bugs that quickly skate or slide across the surface of the water. How do we do it? We use water tension, and tiny velvety hairs on our abdomens that trap air between them, creating a small cushion on which we can float.",
+            "Eats": {
+                "Text": "Algae, decaying plant and animal matter, small invertebrates",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Fish, amphibians, reptiles, birds, spiders, other insects",
+                "Id": [4,5,6,7]
+            },
+            "FoundIn": "Pools, ponds and slow-moving streams, especially where plants are abundant",
+            "Status": "Although we aren’t the most sensitive to pollution, our presence is an indicator of the health of a wetland ecosystem. The more species of us there are, the healthier and stronger an ecosystem is."
         },
     ]
 }
