@@ -500,5 +500,45 @@
             "FoundIn": "Pools, ponds and slow-moving streams, especially where plants are abundant",
             "Status": "Although we aren’t the most sensitive to pollution, our presence is an indicator of the health of a wetland ecosystem. The more species of us there are, the healthier and stronger an ecosystem is."
         },
+        {
+            "Id": 25,
+            "Name": "Water Penny",
+            "Genus": "Family Psephenidae, with several species native to the northeastern United States",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "My ͞shell͟ is actually an exoskeleton—the hard outer part of most insects. It’s flat, almost circular, and copper colored, so you can imagine where I got my name. Our larvae cling to the undersides of logs and rocks, where we use scrapers on our legs to gather algae. We also eat bits of dead plants and animals, and feces (poop) from fish, which makes the water cleaner for all the living creatures that share it.",
+            "Eats": {
+                "Text": "Algae, decaying plant and animal matter, feces",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Fish, wading birds, amphibians, reptiles",
+                "Id": [5,6,7]
+            },
+            "FoundIn": "Undersides of rocks and logs in freshwater streams with moderate or fast currents, or on rocks along shores",
+            "Status": "We are especially sensitive to the quality of the environment, and can’t survive in places where the rocks have a thick layer of algae, fungi, or sediments—all signs of sickness in a watershed habitat. Finding our larvae is a good sign that a freshwater habitat is healthy."
+        },
+        {
+            "Id": 26,
+            "Name": "Wild Celery",
+            "Genus": "Vallisneria americana",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Unlike the celery you eat, we are aquatic plants that grow completely beneath the surface of the water. With our deep root systems, we stabilize sediment and shorelines, keeping the soil from washing away downstream. Our roots and stems also snag bits of organic matter that feed many small animal species, which in turn provide food for larger predators. And, we improve water quality by filtering pollutants out of the water.",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": [0]
+            },
+            "EatenBy": {
+                "Text": "Insects, waterfowl, small mammals",
+                "Id": [5,6,7]
+            },
+            "FoundIn": "Ponds, lakes and rivers with depths of 3 to 6 feet",
+            "Status": "If you see fields of me swaying beneath the surface, the wetland environment is probably healthy. But, I’m under pressure from habitat loss, poor water quality, increased salinity, and erosion, which dumps heavy sediment into the clear, flowing water I need to survive."
+        },
     ]
 }
