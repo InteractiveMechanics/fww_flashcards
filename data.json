@@ -220,5 +220,25 @@
             "FoundIn": "Edges of shallow, quiet ponds, lakes, marshes, and streams",
             "Status": "Habitat loss is the biggest threat to my survival. When pollution, erosion, and other environmental factors harm populations of small fish and insects, my food source disappears, and so do I."
         },
+        {
+            "Id": 11,
+            "Name": "Freshwater Mussel",
+            "Genus": "Margaritifera margaritifera",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "I grow slowly, but I can live a long time—as many as 100 years or more! I start life as a tiny larva called a ͞glochidia͟ that requires a fish host to survive until I’m big enough to live on my own. I feed by inhaling water and filtering out tiny organic particles of food. Once, when we were abundant, this filter feeding helped clean the water for all species, but there are so few of us now that we can no longer perform this role in freshwater ecosystems.",
+            "Eats": {
+                "Text": "Plankton, organic debris",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Birds, otters, raccoons, muskrats, humans",
+                "Id": [7]
+            },
+            "FoundIn": "Clean, cold, fast-flowing streams and rivers",
+            "Status": "We can’t survive in muddy or silty environments, so erosion and sedimentation of rivers has taken a serious toll on our survival—so serious that we’re now an endangered species. Conservationists are working hard to restore our habitat, save the few of us that are left, and rebuild our populations in the wild."
+        },
     ]
 }
