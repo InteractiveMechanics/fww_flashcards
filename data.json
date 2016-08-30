@@ -182,7 +182,7 @@
         },
         {
             "Id": 9,
-            "Name": "Diatoms",
+            "Name": "Dragonfly",
             "Genus": "Erythemis simplicicollis (Eastern Pondhawk), Pachydiplax longipennis (Blue Dasher), Anax junius (Green Darner), Progomphus obscurus (Sanddragon), Libellula vibrans (Great Blue Skimmer), Celithemis eponina (Halloween Pennant), Libellula lydia (Whitetail Skimmer), Perithemis tenera (Eastern Amberwing)",
             "Coords": {
                 "x": 55,
@@ -191,14 +191,34 @@
     		"Body": "For hundreds of millions of years, my kind have been a common sight in many watershed environments, flitting above the surface of the water like flashing jewels in displays of aerial acrobatics. We are ferocious hunters, each one of us eating hundreds of mosquitoes, flies, gnats, midges, and wasps each day.  Because of this, we are important pest controllers, keeping insect populations in check so they don’t overrun a habitat.",
             "Eats": {
                 "Text": "Small insects",
-                "Id": [1]
+                "Id": [2]
             },
             "EatenBy": {
                 "Text": "Tadpoles, fish, snakes, birds",
-                "Id": [1,2,3]
+                "Id": [4,5,6,7]
             },
             "FoundIn": "Ponds, marshes, shorelines and surfaces of slow moving creeks and rivers, as well as fast-flowing streams",
             "Status": "Loss of habitat and the pollution of streams are threats to our survival. Many of us need healthy wetland environments with clean water, plants, and healthy insect populations to keep flying."
+        },
+        {
+            "Id": 10,
+            "Name": "Fishing Spider",
+            "Genus": "Dolomedes triton and Dolomedes tenebrosus, respectively",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Unlike my web-spinning cousins, I’m completely at home on the water without a web. I can swim by rowing my legs, or rely on the water-resistant hairs all over my body to walk across the surface. I can even dive by trapping a bubble of air between my legs and breathing from it using lungs on my abdomen. I can stay down for more than half an hour with my bubble, hunting prey and hiding from predators.",
+            "Eats": {
+                "Text": "Aquatic insects, small fish, amphibians",
+                "Id": [2]
+            },
+            "EatenBy": {
+                "Text": "Amphibians, reptiles, birds, large fish",
+                "Id": [3,4]
+            },
+            "FoundIn": "Edges of shallow, quiet ponds, lakes, marshes, and streams",
+            "Status": "Habitat loss is the biggest threat to my survival. When pollution, erosion, and other environmental factors harm populations of small fish and insects, my food source disappears, and so do I."
         },
     ]
 }
