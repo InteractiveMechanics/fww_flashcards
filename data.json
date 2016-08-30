@@ -75,7 +75,7 @@
             },
             "EatenBy": {
                 "Text": "Small fish, tadpoles, spiders, aquatic insects",
-                "Id": [3,4]
+                "Id": [3, 4]
             },
             "FoundIn": "Many freshwater environments, especially well-oxygenated ponds and lakes",
             "Status": "Pollution, overheating of water, lack of oxygen, and dangerous blooms of algae can stress my populations. When that happens, I produce eggs that are carried away on the wind and hatch only when conditions in their landing places are just right."
@@ -91,11 +91,11 @@
     		"Body": "I’m more than just a fish. I’m a nursery for the tiny young larvae, or ͞glochidia,͟ of freshwater mussels. Floating glochidia attach to my gills, where they live as harmless parasites as they grow. When they’re big enough, the hitchhiking mussels drop off and settle down into the beds of the clear, cold streams that we both need to survive. No brook trout means no mussels!",
             "Eats": {
                 "Text": "Insects, crustaceans, tadpoles, frogs, mollusks, smaller fish",
-                "Id": [2,3,4]
+                "Id": [2, 3, 4]
             },
             "EatenBy": {
                 "Text": "Larger predatory fish, birds of prey, wading birds, small mammals, humans",
-                "Id": [6,7]
+                "Id": [6, 7]
             },
             "FoundIn": "Clear, cold streams, rivers, lakes, and ponds",
             "Status": "Habitat loss, erosion, damming, pollution, overfishing, and invasive species have had big effects on my numbers. Brook trout (and mussels) have disappeared from areas where we were once common. We need habitat restoration if we are going to survive."
@@ -111,11 +111,11 @@
     		"Body": "You may not see us, but you can hear us. Male bullfrogs emit a deep bellow that can be heard up to half a mile away to attract mates and intimidate rivals, especially in the summer breeding season. Our eggs hatch into tadpoles that slowly transform into adult bullfrogs. We’re voracious predators and play a big role in controlling insect populations!",
             "Eats": {
                 "Text": "Insects, worms, crayfish, small fish, small snakes, other frogs",
-                "Id": [2,3,4,5]
+                "Id": [2, 3, 4, 5]
             },
             "EatenBy": {
                 "Text": "Larger predatory fish, wading birds, snakes, small mammals, humans",
-                "Id": [6,7]
+                "Id": [6, 7]
             },
             "FoundIn": "Edges of large, permanent lakes, ponds, and swamps",
             "Status": "Increased water temperatures and increased amounts of water plants—often signs of pollution—actually work to our advantage, providing good habitats for growth, reproduction, and escape from predators. We are becoming much more common in areas that have been changed by humans, driving out other amphibian species in the process."
@@ -131,11 +131,11 @@
     		"Body": "Like many aquatic insects, we spend the early stages of our lives completely underwater as larvae. Unlike other insects, however, our larvae are builders! We produce a silk thread that we use to make food-catching nets, stationary homes, or portable cases by sticking together twigs, gravel, sand, or other debris. When it’s time to transform into adult caddisflies, we shed our armored homes, crawl onto land, and spend the rest of our lives as flying insects.",
             "Eats": {
                 "Text": "Decaying plant and animal matter, algae, small invertebrates",
-                "Id": [1,2]
+                "Id": [1, 2]
             },
             "EatenBy": {
                 "Text": "Fish, wading birds, amphibians, reptiles",
-                "Id": [5,6,7]
+                "Id": [5, 6, 7]
             },
             "FoundIn": "Streams, rivers, lakes, and permanent or temporary ponds",
             "Status": "Many types of caddisflies are sensitive to water quality and pollution. In fact, counts of our larvae are part of an index widely used by scientists and conservationists to measure water quality."
@@ -151,11 +151,11 @@
     		"Body": "We may look like dragonflies, but you can tell us apart if you know what to look for. We are usually smaller and more delicate looking than dragonflies, and we hold our wings along our bodies—not outstretched—when resting. We feed on huge quantities of small insects such as mosquitoes and gnats, helping to keep pest populations in check.",
             "Eats": {
                 "Text": "Insects, crustaceans",
-                "Id": [2,3]
+                "Id": [2, 3]
             },
             "EatenBy": {
                 "Text": "Birds, fish, dragonflies, frogs, spiders, aquatic insects",
-                "Id": [4,5,6,7]
+                "Id": [4, 5, 6, 7]
             },
             "FoundIn": "Bogs, ponds, lakes and rivers with good vegetation",
             "Status": "We are sensitive to water acidity (pH), water temperature, and water flow rates, and vulnerable to pollution and environmental damage. Our presence can be a good indicator that a wetland habitat is relatively healthy and unpolluted."
@@ -175,7 +175,7 @@
             },
             "EatenBy": {
                 "Text": "Zooplankton, crustaceans, fish larvae, insect larvae",
-                "Id": [1,2,3]
+                "Id": [1, 2, 3]
             },
             "FoundIn": "Sunlit zones of almost any aquatic environment",
             "Status": "When we die, our shells fall into the sediments of rivers, lakes, and oceans. By studying cores taken from these sediments, scientists use our shells to analyze environmental conditions in the past. This helps them understand how pollution, erosion, and climate change are impacting aquatic habitats—and our survival—today."
@@ -195,7 +195,7 @@
             },
             "EatenBy": {
                 "Text": "Tadpoles, fish, snakes, birds",
-                "Id": [4,5,6,7]
+                "Id": [4, 5, 6, 7]
             },
             "FoundIn": "Ponds, marshes, shorelines and surfaces of slow moving creeks and rivers, as well as fast-flowing streams",
             "Status": "Loss of habitat and the pollution of streams are threats to our survival. Many of us need healthy wetland environments with clean water, plants, and healthy insect populations to keep flying."
@@ -215,7 +215,7 @@
             },
             "EatenBy": {
                 "Text": "Amphibians, reptiles, birds, large fish",
-                "Id": [3,4]
+                "Id": [3, 4]
             },
             "FoundIn": "Edges of shallow, quiet ponds, lakes, marshes, and streams",
             "Status": "Habitat loss is the biggest threat to my survival. When pollution, erosion, and other environmental factors harm populations of small fish and insects, my food source disappears, and so do I."
@@ -251,7 +251,7 @@
     		"Body": "I have specially shaped neck vertebrae that give my head and sharp beak a faster and longer strike than normal, making me a top predator in the wetlands. Herons also like to congregate at fish hatcheries, where prey is easy to come by. Fish farmers didn’t care for us at first, but a study discovered that we mostly ate diseased fish that were easy pickings. Our hunting actually improves the health of the other fish.",
             "Eats": {
                 "Text": "Fish, amphibians, reptiles, large insects, small birds",
-                "Id": [7,6,5,4]
+                "Id": [4, 5, 6, 7]
             },
             "EatenBy": {
                 "Text": "Large birds of prey, small mammals (especially my eggs)",
@@ -271,7 +271,7 @@
     		"Body": "Unlike many animals, the male of our species is responsible for the young. He creates a nest in the riverbed where the female lays thousands of eggs. He fiercely guards the eggs until they hatch, and then stays with the school of larvae for up to a month while they feed on tiny animals and grow large enough to survive on their own. If they live long enough, they’ll become one of the largest predators in the watershed.",
             "Eats": {
                 "Text": "Fish, crustaceans, insects, frogs, snakes, small water birds",
-                "Id": [7,6,5,4]
+                "Id": [4, 5, 6, 7]
             },
             "EatenBy": {
                 "Text": "Birds of prey, small mammals, humans",
@@ -291,7 +291,7 @@
     		"Body": "When maple trees drop their leaves in fall and winter, we drift into streams and ponds. There we decay and create a rich layer of organic matter on the streambed that feeds microorganisms, larval insects, and tiny fish that form the base of a healthy food chain. In spring and summer, I also provide anchors for eggs, hiding places for small fish and insects, and hunting platforms for tiny amphibians, insects, and spiders. A floating maple leaf is an ecosystem all its own!",
             "Eats": {
                 "Text": "Sunlight and nutrients",
-                "Id": [1]
+                "Id": [0]
             },
             "EatenBy": {
                 "Text": "Plankton, larval insects, larval fish, other microorganisms",
@@ -311,7 +311,7 @@
     		"Body": "We water snakes are fierce predators, but we are not venomous. I have to hunt by stealth to catch my prey, which I swallow whole. When I feel threatened, I can release a foul-smelling, musky odor to deter predators. However, I’m more likely to escape by submerging beneath the water, where I can stay for up to 90 minutes before coming up for air.",
             "Eats": {
                 "Text": "Tadpoles, fish, frogs, insects, crustaceans, small birds, small mammals",
-                "Id": [4,5,6,7]
+                "Id": [4, 5, 6, 7]
             },
             "EatenBy": {
                 "Text": "Larger predatory fish, birds of prey, wading birds, small mammals",
@@ -331,7 +331,7 @@
     		"Body": "My round or heart-shaped leaves can grow up to 12 inches wide. They grow from a long stalk anchored by roots to the muddy bottom. These leaves provide resting places for insects and birds, a place where insects and amphibians can attach their eggs, and shade and shelter for fish. In summer, I grow yellow, globe-like flowers with thick petals that encase a pod loaded with seeds—an unusual relic from the earliest evolution of flowering plants.",
             "Eats": {
                 "Text": "Sunlight and nutrients",
-                "Id": [1]
+                "Id": [0]
             },
             "EatenBy": {
                 "Text": "Waterfowl, reptiles, small mammals",
@@ -351,7 +351,7 @@
     		"Body": "We are unique among North American birds of prey for our strict diet of live fish, and our ability to dive and catch them in water up to three feet deep. We search for fish by flying steadily over or circling high above relatively shallow water. We often hover briefly before diving feet-first to grab our prey. Barbed pads on the soles of our feet help us keep a grip on our slippery meals.",
             "Eats": {
                 "Text": "Fish",
-                "Id": [5,6,7]
+                "Id": [5, 6, 7]
             },
             "EatenBy": {
                 "Text": "Nothing. I’m at the top of the food chain.",
@@ -371,7 +371,7 @@
     		"Body": "As cold-blooded reptiles, soaking up sunlight warms us, gives us the energy to move, and helps rid us of parasites such as leeches that don’t care for light. We like to bask in large groups on logs and rocks. At the first sign of danger, though, our entire group will dive back into the water to hide.",
             "Eats": {
                 "Text": "Aquatic plants, earthworms, insects, crayfish, tadpoles, fish",
-                "Id": [1,2,3,4,5]
+                "Id": [1, 2, 3, 4, 5]
             },
             "EatenBy": {
                 "Text": "Large fish, wading birds, raccoons, foxes, snakes, hawks",
@@ -415,7 +415,7 @@
             },
             "EatenBy": {
                 "Text": "Insects, waterfowl, small mammals",
-                "Id": [7,4]
+                "Id": [4, 7]
             },
             "FoundIn": "Shorelines, shallow water regions, and boggy areas that flood",
             "Status": "My survival is under pressure from shrinking wetlands, poor water quality, increased salinity, and invasive aquatic plants such as purple loosestrife and water hyacinth that have few native checks to their growth."
@@ -431,7 +431,7 @@
     		"Body": "Our streamlined bodies, webbed toes, and tapered tails are perfectly adapted to our largely aquatic life. Playful and active, our family groups move constantly from place to place in a regular circuit. A solitary male can travel 150 miles a year within a particular watershed! Because of our wandering ways and big appetites, we need large, healthy habitats to survive.",
             "Eats": {
                 "Text": "Fish, shellfish, crustaceans, amphibians, reptiles, insects, birds, small mammals",
-                "Id": [7,6,5,4]
+                "Id": [4, 5, 6, 7]
             },
             "EatenBy": {
                 "Text": "Nothing. I’m at the top of the food chain, although humans hunt me for my fur.",
@@ -455,7 +455,7 @@
             },
             "EatenBy": {
                 "Text": "Fish, wading birds, amphibians, reptiles",
-                "Id": [7,6,5]
+                "Id": [5, 6, 7]
             },
             "FoundIn": "Clear, swift-moving streams, rivers, and springs",
             "Status": "Our larvae require clean, well-oxygenated waters to survive, so our presence is a sign that a freshwater ecosystem is healthy. If we disappear from an area, it’s a warning flag that water quality has declined and the ecosystem’s health is in danger."
@@ -495,7 +495,7 @@
             },
             "EatenBy": {
                 "Text": "Fish, amphibians, reptiles, birds, spiders, other insects",
-                "Id": [4,5,6,7]
+                "Id": [4, 5, 6, 7]
             },
             "FoundIn": "Pools, ponds and slow-moving streams, especially where plants are abundant",
             "Status": "Although we aren’t the most sensitive to pollution, our presence is an indicator of the health of a wetland ecosystem. The more species of us there are, the healthier and stronger an ecosystem is."
@@ -515,7 +515,7 @@
             },
             "EatenBy": {
                 "Text": "Fish, wading birds, amphibians, reptiles",
-                "Id": [5,6,7]
+                "Id": [5, 6, 7]
             },
             "FoundIn": "Undersides of rocks and logs in freshwater streams with moderate or fast currents, or on rocks along shores",
             "Status": "We are especially sensitive to the quality of the environment, and can’t survive in places where the rocks have a thick layer of algae, fungi, or sediments—all signs of sickness in a watershed habitat. Finding our larvae is a good sign that a freshwater habitat is healthy."
@@ -535,7 +535,7 @@
             },
             "EatenBy": {
                 "Text": "Insects, waterfowl, small mammals",
-                "Id": [5,6,7]
+                "Id": [5, 6, 7]
             },
             "FoundIn": "Ponds, lakes and rivers with depths of 3 to 6 feet",
             "Status": "If you see fields of me swaying beneath the surface, the wetland environment is probably healthy. But, I’m under pressure from habitat loss, poor water quality, increased salinity, and erosion, which dumps heavy sediment into the clear, flowing water I need to survive."
