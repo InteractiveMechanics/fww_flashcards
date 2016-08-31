@@ -463,7 +463,7 @@
         {
             "Id": 23,
             "Name": "Sturgeon",
-            "Genus": "Acipenseridae",
+            "Genus": "Acipenser oxyrinchus oxyrinchu, Acipenser brevirostrum, Acipenser oxyrinchus desotoi",
             "Coords": {
                 "x": 55,
                 "y": 283
