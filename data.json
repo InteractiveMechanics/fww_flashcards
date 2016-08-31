@@ -171,7 +171,7 @@
     		"Body": "We are algae, but we encase our soft, singled-celled bodies in hard silica shells that come in an amazing array of geometric designs. Like other algae, we use photosynthesis to turn sunlight into food. In the process, we release oxygen into the water, helping other animals to breathe. We’re the primary food for a wide range of insects, crustaceans, and fish. Without us, life in an aquatic ecosystem can vanish.",
             "Eats": {
                 "Text": "Sunlight and nutrients",
-                "Id": [1]
+                "Id": []
             },
             "EatenBy": {
                 "Text": "Zooplankton, crustaceans, fish larvae, insect larvae",
@@ -251,7 +251,7 @@
     		"Body": "I have specially shaped neck vertebrae that give my head and sharp beak a faster and longer strike than normal, making me a top predator in the wetlands. Herons also like to congregate at fish hatcheries, where prey is easy to come by. Fish farmers didn’t care for us at first, but a study discovered that we mostly ate diseased fish that were easy pickings. Our hunting actually improves the health of the other fish.",
             "Eats": {
                 "Text": "Fish, amphibians, reptiles, large insects, small birds",
-                "Id": [4, 5, 6, 7]
+                "Id": [4, 5, 6]
             },
             "EatenBy": {
                 "Text": "Large birds of prey, small mammals (especially my eggs)",
@@ -271,7 +271,7 @@
     		"Body": "Unlike many animals, the male of our species is responsible for the young. He creates a nest in the riverbed where the female lays thousands of eggs. He fiercely guards the eggs until they hatch, and then stays with the school of larvae for up to a month while they feed on tiny animals and grow large enough to survive on their own. If they live long enough, they’ll become one of the largest predators in the watershed.",
             "Eats": {
                 "Text": "Fish, crustaceans, insects, frogs, snakes, small water birds",
-                "Id": [4, 5, 6, 7]
+                "Id": [4, 5, 6]
             },
             "EatenBy": {
                 "Text": "Birds of prey, small mammals, humans",
@@ -291,7 +291,7 @@
     		"Body": "When maple trees drop their leaves in fall and winter, we drift into streams and ponds. There we decay and create a rich layer of organic matter on the streambed that feeds microorganisms, larval insects, and tiny fish that form the base of a healthy food chain. In spring and summer, I also provide anchors for eggs, hiding places for small fish and insects, and hunting platforms for tiny amphibians, insects, and spiders. A floating maple leaf is an ecosystem all its own!",
             "Eats": {
                 "Text": "Sunlight and nutrients",
-                "Id": [0]
+                "Id": []
             },
             "EatenBy": {
                 "Text": "Plankton, larval insects, larval fish, other microorganisms",
@@ -331,7 +331,7 @@
     		"Body": "My round or heart-shaped leaves can grow up to 12 inches wide. They grow from a long stalk anchored by roots to the muddy bottom. These leaves provide resting places for insects and birds, a place where insects and amphibians can attach their eggs, and shade and shelter for fish. In summer, I grow yellow, globe-like flowers with thick petals that encase a pod loaded with seeds—an unusual relic from the earliest evolution of flowering plants.",
             "Eats": {
                 "Text": "Sunlight and nutrients",
-                "Id": [0]
+                "Id": []
             },
             "EatenBy": {
                 "Text": "Waterfowl, reptiles, small mammals",
@@ -355,7 +355,7 @@
             },
             "EatenBy": {
                 "Text": "Nothing. I’m at the top of the food chain.",
-                "Id": [0]
+                "Id": []
             },
             "FoundIn": "Coastlines, the shores of freshwater lakes and rivers",
             "Status": "Ospreys are a conservation success story! We were once common in Pennsylvania, but were largely wiped out during the 1950s from the effects of a pesticide called DDT that is now banned. In the 1980s conservationists introduced 6 of us back into the Pennsylvania watershed environment, and now, 35 years later, 100 breeding pairs call this state home."
@@ -391,7 +391,7 @@
     		"Body": "We are tiny, free-floating, single-celled plants, also called͞algae.͟ A single drop of water from a healthy aquatic environment may have thousands of microscopic phytoplankton in it.  Don’t be fooled by our small size, though. We are the key to life in aquatic habitats because we are the primary producers of oxygen and food, forming the base of the complex food webs in these ecosystems.",
             "Eats": {
                 "Text": "Sunlight and nutrients",
-                "Id": [0]
+                "Id": []
             },
             "EatenBy": {
                 "Text": "Zooplankton, crustaceans, shellfish, fish larvae, insect larvae",
@@ -411,11 +411,11 @@
     		"Body": "I grow and produce my purple flowers in areas where water levels change with tides and floods. Since soils in flooded areas are very low in oxygen, I can’t use my roots to get oxygen from the soil. Instead, my stems and leaves have air-filled chambers that help oxygen pass into and through me. Some of the oxygen in these chambers actually leaks into the soil, providing air for microorganisms. In a way, I breathe for them!",
             "Eats": {
                 "Text": "Sunlight and nutrients",
-                "Id": [0]
+                "Id": []
             },
             "EatenBy": {
                 "Text": "Insects, waterfowl, small mammals",
-                "Id": [4, 7]
+                "Id": [4, 5, 6, 7]
             },
             "FoundIn": "Shorelines, shallow water regions, and boggy areas that flood",
             "Status": "My survival is under pressure from shrinking wetlands, poor water quality, increased salinity, and invasive aquatic plants such as purple loosestrife and water hyacinth that have few native checks to their growth."
@@ -435,7 +435,7 @@
             },
             "EatenBy": {
                 "Text": "Nothing. I’m at the top of the food chain, although humans hunt me for my fur.",
-                "Id": [0]
+                "Id": []
             },
             "FoundIn": "Ponds, lakes, rivers, sloughs, estuaries, bays, and open waters along the coast",
             "Status": "Pollution, soil erosion, and human development along stream banks, which takes away places where we can dig dens and raise our young, push us out of our habitat. We avoid polluted waterways, so our presence is a sign of good water quality and a healthy food chain from bottom to top."
@@ -531,7 +531,7 @@
     		"Body": "Unlike the celery you eat, we are aquatic plants that grow completely beneath the surface of the water. With our deep root systems, we stabilize sediment and shorelines, keeping the soil from washing away downstream. Our roots and stems also snag bits of organic matter that feed many small animal species, which in turn provide food for larger predators. And, we improve water quality by filtering pollutants out of the water.",
             "Eats": {
                 "Text": "Sunlight and nutrients",
-                "Id": [0]
+                "Id": []
             },
             "EatenBy": {
                 "Text": "Insects, waterfowl, small mammals",
@@ -539,6 +539,6 @@
             },
             "FoundIn": "Ponds, lakes and rivers with depths of 3 to 6 feet",
             "Status": "If you see fields of me swaying beneath the surface, the wetland environment is probably healthy. But, I’m under pressure from habitat loss, poor water quality, increased salinity, and erosion, which dumps heavy sediment into the clear, flowing water I need to survive."
-        },
+        }
     ]
 }
