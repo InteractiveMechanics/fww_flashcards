@@ -9,6 +9,8 @@ Modals = (function() {
 
         var $modal = $('#modal');
         var id = $(this).data('id');
+        var eats = data.Characters[id]["Eats"];
+        var eaten = data.Characters[id]["EatenBy"];
 
         if ($modal.hasClass('hidden')) {
             $modal.removeClass('hidden');
@@ -21,6 +23,7 @@ Modals = (function() {
         }
         $('#modal-template').tmpl(data.Characters[id]).appendTo($modal);
         buildPagination(id);
+        buildFoodChain(eats, eaten);
     }
     var buildPagination = function(id) {
         var $pagination = $('#modal .modal-pagination');
@@ -31,6 +34,15 @@ Modals = (function() {
         if ((id + 1) < data.Characters.length) {
             $('#modal-pagination-template').tmpl(data.Characters[id + 1]).addClass('next').appendTo($pagination);
         }
+    }
+    var buildFoodChain = function(eats, eaten) {
+        var $foodchain = $('.modal-food-chain');
+        $.each(eats['Id'], function( index, value ) {
+            $foodchain.find('.modal-food-chain-' + value).addClass('active eats');
+        });
+        $.each(eaten['Id'], function( index, value ) {
+            $foodchain.find('.modal-food-chain-' + value).addClass('active eatenby');
+        });
     }
     var clearModal = function() {
         $('#modal').html('');

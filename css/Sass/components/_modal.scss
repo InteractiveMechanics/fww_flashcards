@@ -78,27 +78,36 @@
 
     > div {
         width: 14.28%;
+        background-position: center bottom;
+        background-repeat: no-repeat;
     }
 
     .modal-food-chain-1 {
-        background: #869C5E;
+        background-color: #869C5E;
+        background-image: url(/assets/images/foodchain_1.svg);
     }
     .modal-food-chain-2 {
-        background: #9AA45A;
+        background-color: #9AA45A;
+        background-image: url(/assets/images/foodchain_2.svg);
     }
     .modal-food-chain-3 {
-        background: #ADA553;
+        background-color: #ADA553;
+        background-image: url(/assets/images/foodchain_3.svg);
     }
     .modal-food-chain-4 {
-        background: #C3A64C;
+        background-color: #C3A64C;
+        background-image: url(/assets/images/foodchain_4.svg);
     }
     .modal-food-chain-5 {
-        background: #D4A645;
+        background-color: #D4A645;
+        background-image: url(/assets/images/foodchain_5.svg);
     }
     .modal-food-chain-6 {
-        background: #E6A63B;
+        background-color: #E6A63B;
+        background-image: url(/assets/images/foodchain_6.svg);
     }
     .modal-food-chain-7 {
-        background: #FAA633;
+        background-color: #FAA633;
+        background-image: url(/assets/images/foodchain_7.svg);
     }
 }
