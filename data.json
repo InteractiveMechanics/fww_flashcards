@@ -8,7 +8,7 @@
                 "x": 55,
                 "y": 283
             },
-    		"Body": "I may look like a snake, but I'm really a fish. When it's time to lay my eggs, I journey hundreds of miles down the rivers of eastern America and far out into the Atlantic Ocean to breed. When the young eels hatch, they return from the ocean to spend their lives in the rivers, and the cycle starts again.",
+    		"Body": "I may look like a snake, but I’m really a fish. When it’s time to lay my eggs, I journey hundreds of miles down the rivers of eastern America and far out into the Atlantic Ocean to breed. When the young eels hatch, they return from the ocean to spend their lives in the rivers, and the cycle starts again.",
             "Eats": {
                 "Text": "Crustaceans, aquatic insects, small fish",
                 "Id": [1, 2]
@@ -18,7 +18,7 @@
                 "Id": [5, 6]
             },
             "FoundIn": "Streams, rivers, and muddy or silt-bottomed lakes",
-            "Status": "Once abundant, my numbers declined drastically as dams blocked our way through the rivers, and pollution poisoned the water. Eels need the help of conservationists if we're going to be part of the northeastern wetlands in the future."
+            "Status": "Once abundant, my numbers declined drastically as dams blocked our way through the rivers to our ocean breeding grounds. Eels need the help of conservationists if we’re going to be part of the ecosystem in the future."
         },
         {
             "Id": 1,
@@ -28,7 +28,7 @@
                 "x": 248,
                 "y": 283
             },
-    		"Body": "I start life far upstream in freshwater rivers, but move down to the salty waters of the Atlantic to spend my adult life in schools containing thousands of fish. I won't return to the river for 3-6 years, when it's time to swim upstream and lay my eggs. I'm an important food source for both animals and humans&mdash;so important, in fact, that several U.S. cities host annual shad festivals to celebrate me!",
+    		"Body": "I start life far upstream in freshwater rivers, but move down to the salty waters of the Atlantic to spend my adult life in schools containing thousands of fish. I won’t return to the river for 3-6 years, when it’s time to swim upstream and lay my eggs. I’m an important food source for both animals and humans—so important, in fact, that several U.S. cities host annual shad festivals to celebrate me!",
             "Eats": {
                 "Text": "Plankton, shrimp, fish eggs",
                 "Id": [1, 2]
@@ -37,8 +37,508 @@
                 "Text": "Larger predatory fish, birds of prey, wading birds, otters, bears, humans",
                 "Id": [5, 6]
             },
-            "FoundIn": "Freshwater rivers and streams for the first months of life, then coastal Atlantic waters",
-            "Status": "Dams and pollution took a toll on our once-huge numbers, and we all but vanished from many areas. Today, habitat restoration and pollution regulations are helping to rebuild our populations along America's eastern coast."
+            "FoundIn": "Freshwater rivers and streams for the first months of life and when spawning, coastal Atlantic waters ",
+            "Status": "Dams and pollution took a toll on our once-huge numbers, and we vanished from many areas. Today, habitat restoration and pollution regulations are helping to rebuild our populations along America’s eastern coast."
+        },
+        {
+            "Id": 2,
+            "Name": "Amphipod (Scud)",
+            "Genus": "Multiple freshwater species in Order Amphipoda",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Most people are completely unaware of the thousands of species of amphipods, or ͞scuds,͟ in aquatic habitats, but we tiny crustaceans serve as an important food source for small animals that, in turn, feed larger animals. In waters with few predators, our populations can reach up to 10,000 per square yard. Our feeding habits help keep water healthy and clean for the other animals that share our habitat.",
+            "Eats": {
+                "Text": "Dead plant and animal matter, algae",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Small fish, tadpoles, newts, aquatic insects",
+                "Id": [5, 6, 7]
+            },
+            "FoundIn": "Shallow-water streams, ponds and lakes",
+            "Status": "We survive in many freshwater environments, but are sensitive to water oxygen levels and erosion. These can have an impact on the size and variety of our populations, which affects animals further up the food chain."
+        },
+        {
+            "Id": 3,
+            "Name": "Bosmina (Water Flea)",
+            "Genus": "Bosmina, hundreds of possible species",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Although I am commonly called a ͞water flea,͟ I’m really a tiny crustacean, like a shrimp. I use my front legs to comb through the water for microscopic plants and animals, while my back legs have structures that work like nets to capture more. Many creatures rely on me for their food, so I’m a critical link between the algae at the base of the food chain and larger animals at the top.",
+            "Eats": {
+                "Text": "Phytoplankton, zooplankton",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Small fish, tadpoles, spiders, aquatic insects",
+                "Id": [3, 4]
+            },
+            "FoundIn": "Many freshwater environments, especially well-oxygenated ponds and lakes",
+            "Status": "Pollution, overheating of water, lack of oxygen, and dangerous blooms of algae can stress my populations. When that happens, I produce eggs that are carried away on the wind and hatch only when conditions in their landing places are just right."
+        },
+        {
+            "Id": 4,
+            "Name": "Brook Trout",
+            "Genus": "Salvelinus fontinalis",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "I’m more than just a fish. I’m a nursery for the tiny young larvae, or ͞glochidia,͟ of freshwater mussels. Floating glochidia attach to my gills, where they live as harmless parasites as they grow. When they’re big enough, the hitchhiking mussels drop off and settle down into the beds of the clear, cold streams that we both need to survive. No brook trout means no mussels!",
+            "Eats": {
+                "Text": "Insects, crustaceans, tadpoles, frogs, mollusks, smaller fish",
+                "Id": [2, 3, 4]
+            },
+            "EatenBy": {
+                "Text": "Larger predatory fish, birds of prey, wading birds, small mammals, humans",
+                "Id": [6, 7]
+            },
+            "FoundIn": "Clear, cold streams, rivers, lakes, and ponds",
+            "Status": "Habitat loss, erosion, damming, pollution, overfishing, and invasive species have had big effects on my numbers. Brook trout (and mussels) have disappeared from areas where we were once common. We need habitat restoration if we are going to survive."
+        },
+        {
+            "Id": 5,
+            "Name": "Bullfrog",
+            "Genus": "Lithobates catesbeianus",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "You may not see us, but you can hear us. Male bullfrogs emit a deep bellow that can be heard up to half a mile away to attract mates and intimidate rivals, especially in the summer breeding season. Our eggs hatch into tadpoles that slowly transform into adult bullfrogs. We’re voracious predators and play a big role in controlling insect populations!",
+            "Eats": {
+                "Text": "Insects, worms, crayfish, small fish, small snakes, other frogs",
+                "Id": [2, 3, 4, 5]
+            },
+            "EatenBy": {
+                "Text": "Larger predatory fish, wading birds, snakes, small mammals, humans",
+                "Id": [6, 7]
+            },
+            "FoundIn": "Edges of large, permanent lakes, ponds, and swamps",
+            "Status": "Increased water temperatures and increased amounts of water plants—often signs of pollution—actually work to our advantage, providing good habitats for growth, reproduction, and escape from predators. We are becoming much more common in areas that have been changed by humans, driving out other amphibian species in the process."
+        },
+        {
+            "Id": 6,
+            "Name": "Caddisfly",
+            "Genus": "In North America, more than 1,000 species within order Trichoptera",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Like many aquatic insects, we spend the early stages of our lives completely underwater as larvae. Unlike other insects, however, our larvae are builders! We produce a silk thread that we use to make food-catching nets, stationary homes, or portable cases by sticking together twigs, gravel, sand, or other debris. When it’s time to transform into adult caddisflies, we shed our armored homes, crawl onto land, and spend the rest of our lives as flying insects.",
+            "Eats": {
+                "Text": "Decaying plant and animal matter, algae, small invertebrates",
+                "Id": [1, 2]
+            },
+            "EatenBy": {
+                "Text": "Fish, wading birds, amphibians, reptiles",
+                "Id": [5, 6, 7]
+            },
+            "FoundIn": "Streams, rivers, lakes, and permanent or temporary ponds",
+            "Status": "Many types of caddisflies are sensitive to water quality and pollution. In fact, counts of our larvae are part of an index widely used by scientists and conservationists to measure water quality."
+        },
+        {
+            "Id": 7,
+            "Name": "Damselfly",
+            "Genus": "Multiple species in the suborder Zygoptera in the order Odonata (which also includes dragonflies)",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "We may look like dragonflies, but you can tell us apart if you know what to look for. We are usually smaller and more delicate looking than dragonflies, and we hold our wings along our bodies—not outstretched—when resting. We feed on huge quantities of small insects such as mosquitoes and gnats, helping to keep pest populations in check.",
+            "Eats": {
+                "Text": "Insects, crustaceans",
+                "Id": [2, 3]
+            },
+            "EatenBy": {
+                "Text": "Birds, fish, dragonflies, frogs, spiders, aquatic insects",
+                "Id": [4, 5, 6, 7]
+            },
+            "FoundIn": "Bogs, ponds, lakes and rivers with good vegetation",
+            "Status": "We are sensitive to water acidity (pH), water temperature, and water flow rates, and vulnerable to pollution and environmental damage. Our presence can be a good indicator that a wetland habitat is relatively healthy and unpolluted."
+        },
+        {
+            "Id": 8,
+            "Name": "Diatom",
+            "Genus": "More than 600 species in Pennsylvania and the northeast",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "We are algae, but we encase our soft, singled-celled bodies in hard silica shells that come in an amazing array of geometric designs. Like other algae, we use photosynthesis to turn sunlight into food. In the process, we release oxygen into the water, helping other animals to breathe. We’re the primary food for a wide range of insects, crustaceans, and fish. Without us, life in an aquatic ecosystem can vanish.",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": []
+            },
+            "EatenBy": {
+                "Text": "Zooplankton, crustaceans, fish larvae, insect larvae",
+                "Id": [1, 2, 3]
+            },
+            "FoundIn": "Sunlit zones of almost any aquatic environment",
+            "Status": "When we die, our shells fall into the sediments of rivers, lakes, and oceans. By studying cores taken from these sediments, scientists use our shells to analyze environmental conditions in the past. This helps them understand how pollution, erosion, and climate change are impacting aquatic habitats—and our survival—today."
+        },
+        {
+            "Id": 9,
+            "Name": "Dragonfly",
+            "Genus": "Erythemis simplicicollis (Eastern Pondhawk), Pachydiplax longipennis (Blue Dasher), Anax junius (Green Darner), Progomphus obscurus (Sanddragon), Libellula vibrans (Great Blue Skimmer), Celithemis eponina (Halloween Pennant), Libellula lydia (Whitetail Skimmer), Perithemis tenera (Eastern Amberwing)",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "For hundreds of millions of years, my kind have been a common sight in many watershed environments, flitting above the surface of the water like flashing jewels in displays of aerial acrobatics. We are ferocious hunters, each one of us eating hundreds of mosquitoes, flies, gnats, midges, and wasps each day.  Because of this, we are important pest controllers, keeping insect populations in check so they don’t overrun a habitat.",
+            "Eats": {
+                "Text": "Small insects",
+                "Id": [2]
+            },
+            "EatenBy": {
+                "Text": "Tadpoles, fish, snakes, birds",
+                "Id": [4, 5, 6, 7]
+            },
+            "FoundIn": "Ponds, marshes, shorelines and surfaces of slow moving creeks and rivers, as well as fast-flowing streams",
+            "Status": "Loss of habitat and the pollution of streams are threats to our survival. Many of us need healthy wetland environments with clean water, plants, and healthy insect populations to keep flying."
+        },
+        {
+            "Id": 10,
+            "Name": "Fishing Spider",
+            "Genus": "Dolomedes triton and Dolomedes tenebrosus, respectively",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Unlike my web-spinning cousins, I’m completely at home on the water without a web. I can swim by rowing my legs, or rely on the water-resistant hairs all over my body to walk across the surface. I can even dive by trapping a bubble of air between my legs and breathing from it using lungs on my abdomen. I can stay down for more than half an hour with my bubble, hunting prey and hiding from predators.",
+            "Eats": {
+                "Text": "Aquatic insects, small fish, amphibians",
+                "Id": [2]
+            },
+            "EatenBy": {
+                "Text": "Amphibians, reptiles, birds, large fish",
+                "Id": [3, 4]
+            },
+            "FoundIn": "Edges of shallow, quiet ponds, lakes, marshes, and streams",
+            "Status": "Habitat loss is the biggest threat to my survival. When pollution, erosion, and other environmental factors harm populations of small fish and insects, my food source disappears, and so do I."
+        },
+        {
+            "Id": 11,
+            "Name": "Freshwater Mussel",
+            "Genus": "Margaritifera margaritifera",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "I grow slowly, but I can live a long time—as many as 100 years or more! I start life as a tiny larva called a ͞glochidia͟ that requires a fish host to survive until I’m big enough to live on my own. I feed by inhaling water and filtering out tiny organic particles of food. Once, when we were abundant, this filter feeding helped clean the water for all species, but there are so few of us now that we can no longer perform this role in freshwater ecosystems.",
+            "Eats": {
+                "Text": "Plankton, organic debris",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Birds, otters, raccoons, muskrats, humans",
+                "Id": [7]
+            },
+            "FoundIn": "Clean, cold, fast-flowing streams and rivers",
+            "Status": "We can’t survive in muddy or silty environments, so erosion and sedimentation of rivers has taken a serious toll on our survival—so serious that we’re now an endangered species. Conservationists are working hard to restore our habitat, save the few of us that are left, and rebuild our populations in the wild."
+        },
+        {
+            "Id": 12,
+            "Name": "Great Blue Heron",
+            "Genus": "Ardea herodias",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "I have specially shaped neck vertebrae that give my head and sharp beak a faster and longer strike than normal, making me a top predator in the wetlands. Herons also like to congregate at fish hatcheries, where prey is easy to come by. Fish farmers didn’t care for us at first, but a study discovered that we mostly ate diseased fish that were easy pickings. Our hunting actually improves the health of the other fish.",
+            "Eats": {
+                "Text": "Fish, amphibians, reptiles, large insects, small birds",
+                "Id": [4, 5, 6]
+            },
+            "EatenBy": {
+                "Text": "Large birds of prey, small mammals (especially my eggs)",
+                "Id": [7]
+            },
+            "FoundIn": "Saltwater and freshwater habitats along shorelines, riverbanks, and the edges of marshes, estuaries, and ponds",
+            "Status": "We prize mangroves and thick stands of trees for breeding. Pollution and the destruction of these habitats for coastal development had a bad impact on our numbers, but our population has rebounded in recent years due to wetland conservation efforts."
+        },
+        {
+            "Id": 13,
+            "Name": "Largemouth Bass",
+            "Genus": "Micropterus salmoides",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Unlike many animals, the male of our species is responsible for the young. He creates a nest in the riverbed where the female lays thousands of eggs. He fiercely guards the eggs until they hatch, and then stays with the school of larvae for up to a month while they feed on tiny animals and grow large enough to survive on their own. If they live long enough, they’ll become one of the largest predators in the watershed.",
+            "Eats": {
+                "Text": "Fish, crustaceans, insects, frogs, snakes, small water birds",
+                "Id": [4, 5, 6]
+            },
+            "EatenBy": {
+                "Text": "Birds of prey, small mammals, humans",
+                "Id": [7]
+            },
+            "FoundIn": "Almost any type of freshwater river, stream, lake, or reservoir with abundant prey",
+            "Status": "Aquatic plants help slow our voracious hunting by providing cover for prey and making hunting more difficult. When plants disappear due to pollution or habitat degradation, we can decimate other species, and then starve in turn when the prey runs out."
+        },
+        {
+            "Id": 14,
+            "Name": "Maple Leaf",
+            "Genus": " In Pennsylvania, Acer rubrum (Red Maple), Acer saccharinum (Silver Maple)",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "When maple trees drop their leaves in fall and winter, we drift into streams and ponds. There we decay and create a rich layer of organic matter on the streambed that feeds microorganisms, larval insects, and tiny fish that form the base of a healthy food chain. In spring and summer, I also provide anchors for eggs, hiding places for small fish and insects, and hunting platforms for tiny amphibians, insects, and spiders. A floating maple leaf is an ecosystem all its own!",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": []
+            },
+            "EatenBy": {
+                "Text": "Plankton, larval insects, larval fish, other microorganisms",
+                "Id": [1]
+            },
+            "FoundIn": "The bottoms of streams, ponds, and lakes",
+            "Status": "Like other trees in the watershed, maples pull pollutants out of the air and water, and provide shade that keeps the water cool. Tree roots also hold the land together, controlling erosion, and reducing deposits of sediment that can choke waterways, kill wildlife, and harm water quality."
+        },
+        {
+            "Id": 15,
+            "Name": "Northern Water Snake",
+            "Genus": "Nerodia sipedon",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "We water snakes are fierce predators, but we are not venomous. I have to hunt by stealth to catch my prey, which I swallow whole. When I feel threatened, I can release a foul-smelling, musky odor to deter predators. However, I’m more likely to escape by submerging beneath the water, where I can stay for up to 90 minutes before coming up for air.",
+            "Eats": {
+                "Text": "Tadpoles, fish, frogs, insects, crustaceans, small birds, small mammals",
+                "Id": [4, 5, 6, 7]
+            },
+            "EatenBy": {
+                "Text": "Larger predatory fish, birds of prey, wading birds, small mammals",
+                "Id": [7]
+            },
+            "FoundIn": "Still ponds, lakes, marshes, shores of rivers and streams",
+            "Status": "Water snakes are a good indicator of a healthy watershed. When conditions are good and prey is plentiful, you can find us in large numbers, feeding on the many creatures that inhabit the watershed and, in turn, providing food for other animals."
+        },
+        {
+            "Id": 16,
+            "Name": "Nuphar",
+            "Genus": "Nuphar advena",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "My round or heart-shaped leaves can grow up to 12 inches wide. They grow from a long stalk anchored by roots to the muddy bottom. These leaves provide resting places for insects and birds, a place where insects and amphibians can attach their eggs, and shade and shelter for fish. In summer, I grow yellow, globe-like flowers with thick petals that encase a pod loaded with seeds—an unusual relic from the earliest evolution of flowering plants.",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": []
+            },
+            "EatenBy": {
+                "Text": "Waterfowl, reptiles, small mammals",
+                "Id": [7]
+            },
+            "FoundIn": "Shallow wetland environments with sluggish/calm waters",
+            "Status": "In some areas, invasive plant species have squeezed us out of our natural habitats. Dropping water levels, heating waters, and pollutants are also taking their toll."
+        },
+        {
+            "Id": 17,
+            "Name": "Osprey",
+            "Genus": "Pandion haliaetus",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "We are unique among North American birds of prey for our strict diet of live fish, and our ability to dive and catch them in water up to three feet deep. We search for fish by flying steadily over or circling high above relatively shallow water. We often hover briefly before diving feet-first to grab our prey. Barbed pads on the soles of our feet help us keep a grip on our slippery meals.",
+            "Eats": {
+                "Text": "Fish",
+                "Id": [5, 6, 7]
+            },
+            "EatenBy": {
+                "Text": "Nothing. I’m at the top of the food chain.",
+                "Id": []
+            },
+            "FoundIn": "Coastlines, the shores of freshwater lakes and rivers",
+            "Status": "Ospreys are a conservation success story! We were once common in Pennsylvania, but were largely wiped out during the 1950s from the effects of a pesticide called DDT that is now banned. In the 1980s conservationists introduced 6 of us back into the Pennsylvania watershed environment, and now, 35 years later, 100 breeding pairs call this state home."
+        },
+        {
+            "Id": 18,
+            "Name": "Painted Turtle",
+            "Genus": "Chrysemys picta",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "As cold-blooded reptiles, soaking up sunlight warms us, gives us the energy to move, and helps rid us of parasites such as leeches that don’t care for light. We like to bask in large groups on logs and rocks. At the first sign of danger, though, our entire group will dive back into the water to hide.",
+            "Eats": {
+                "Text": "Aquatic plants, earthworms, insects, crayfish, tadpoles, fish",
+                "Id": [1, 2, 3, 4, 5]
+            },
+            "EatenBy": {
+                "Text": "Large fish, wading birds, raccoons, foxes, snakes, hawks",
+                "Id": [7]
+            },
+            "FoundIn": "Marshes, lakes, ponds, rivers, and slow-moving streams with lots of vegetation and logs for sunning",
+            "Status": "With human communities moving in on our habitats, being hit by vehicles is a growing problem, especially since the turtles crossing roads are often pregnant females searching for nesting sites. We also face competition from non-native red-eared sliders released into the wild by pet owners who no longer want them."
+        },
+        {
+            "Id": 19,
+            "Name": "Phytoplankton",
+            "Genus": "Thousands of varieties",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "We are tiny, free-floating, single-celled plants, also called͞algae.͟ A single drop of water from a healthy aquatic environment may have thousands of microscopic phytoplankton in it.  Don’t be fooled by our small size, though. We are the key to life in aquatic habitats because we are the primary producers of oxygen and food, forming the base of the complex food webs in these ecosystems.",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": []
+            },
+            "EatenBy": {
+                "Text": "Zooplankton, crustaceans, shellfish, fish larvae, insect larvae",
+                "Id": [1]
+            },
+            "FoundIn": "Sunlit zones of almost any aquatic environment",
+            "Status": "We are very sensitive to changes in nutrient levels, and can quickly die off or undergo dramatic population explosions called ͞blooms͟ that overwhelm a habitat, and cause other species to die. Because of this sensitivity, our populations are great indicators of pollution levels and habitat health."
+        },
+        {
+            "Id": 20,
+            "Name": "Pickerelweed",
+            "Genus": "Pontederia cordata",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "I grow and produce my purple flowers in areas where water levels change with tides and floods. Since soils in flooded areas are very low in oxygen, I can’t use my roots to get oxygen from the soil. Instead, my stems and leaves have air-filled chambers that help oxygen pass into and through me. Some of the oxygen in these chambers actually leaks into the soil, providing air for microorganisms. In a way, I breathe for them!",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": []
+            },
+            "EatenBy": {
+                "Text": "Insects, waterfowl, small mammals",
+                "Id": [4, 5, 6, 7]
+            },
+            "FoundIn": "Shorelines, shallow water regions, and boggy areas that flood",
+            "Status": "My survival is under pressure from shrinking wetlands, poor water quality, increased salinity, and invasive aquatic plants such as purple loosestrife and water hyacinth that have few native checks to their growth."
+        },
+        {
+            "Id": 21,
+            "Name": "River Otter",
+            "Genus": "Lontra canadensis",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Our streamlined bodies, webbed toes, and tapered tails are perfectly adapted to our largely aquatic life. Playful and active, our family groups move constantly from place to place in a regular circuit. A solitary male can travel 150 miles a year within a particular watershed! Because of our wandering ways and big appetites, we need large, healthy habitats to survive.",
+            "Eats": {
+                "Text": "Fish, shellfish, crustaceans, amphibians, reptiles, insects, birds, small mammals",
+                "Id": [4, 5, 6, 7]
+            },
+            "EatenBy": {
+                "Text": "Nothing. I’m at the top of the food chain, although humans hunt me for my fur.",
+                "Id": []
+            },
+            "FoundIn": "Ponds, lakes, rivers, sloughs, estuaries, bays, and open waters along the coast",
+            "Status": "Pollution, soil erosion, and human development along stream banks, which takes away places where we can dig dens and raise our young, push us out of our habitat. We avoid polluted waterways, so our presence is a sign of good water quality and a healthy food chain from bottom to top."
+        },
+        {
+            "Id": 22,
+            "Name": "Stonefly",
+            "Genus": "In the northeast US/Pennsylvania, more than 100 species within order Plecoptera",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "You can find us in almost every freshwater aquatic environment, and we’re an important food source for many kinds of fish. During the early ͞nymph͟ stages of our lives, we spend 1 to 2 years creeping under submerged rocks and logs, hiding from predators and searching for food. When we transform into our final stage, we crawl out of the water onto stones, molt our tough skins, and emerge as winged adults.",
+            "Eats": {
+                "Text": "Decaying plant and animal matter, algae, small invertebrates",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Fish, wading birds, amphibians, reptiles",
+                "Id": [5, 6, 7]
+            },
+            "FoundIn": "Clear, swift-moving streams, rivers, and springs",
+            "Status": "Our larvae require clean, well-oxygenated waters to survive, so our presence is a sign that a freshwater ecosystem is healthy. If we disappear from an area, it’s a warning flag that water quality has declined and the ecosystem’s health is in danger."
+        },
+        {
+            "Id": 23,
+            "Name": "Sturgeon",
+            "Genus": "Acipenser oxyrinchus oxyrinchu, Acipenser brevirostrum, Acipenser oxyrinchus desotoi",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "I’m a fish, but my form is a primitive one that goes back many millions of years. My skeleton is mostly cartilage rather than bone, and I have rows of armored plates instead of scales. I hunt using the long barbels hanging under my snout to detect the smell and movement of prey. I can also sense the invisible electric fields generated by all animals.",
+            "Eats": {
+                "Text": "Small crustaceans, fish, other animals sucked up from the river bottom",
+                "Id": [2]
+            },
+            "EatenBy": {
+                "Text": "Larger predatory fish, birds of prey, wading birds, bears, humans",
+                "Id": [7]
+            },
+            "FoundIn": "Freshwater rivers, river deltas, brackish (salty) estuaries",
+            "Status": "Habitat loss, pollution, overfishing, invasive species, and climate change all threaten my survival. All three East Coast species of my kind are now protected under the Endangered Species Act while conservationists try to rebuild our habitats."
+        },
+        {
+            "Id": 24,
+            "Name": "Water Bug",
+            "Genus": "Thousands of species of aquatic and semi-aquatic ͞true bugs͟",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "You might recognize some of our many species as ͞water striders͟—surface dwelling water bugs that quickly skate or slide across the surface of the water. How do we do it? We use water tension, and tiny velvety hairs on our abdomens that trap air between them, creating a small cushion on which we can float.",
+            "Eats": {
+                "Text": "Algae, decaying plant and animal matter, small invertebrates",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Fish, amphibians, reptiles, birds, spiders, other insects",
+                "Id": [4, 5, 6, 7]
+            },
+            "FoundIn": "Pools, ponds and slow-moving streams, especially where plants are abundant",
+            "Status": "Although we aren’t the most sensitive to pollution, our presence is an indicator of the health of a wetland ecosystem. The more species of us there are, the healthier and stronger an ecosystem is."
+        },
+        {
+            "Id": 25,
+            "Name": "Water Penny",
+            "Genus": "Family Psephenidae, with several species native to the northeastern United States",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "My ͞shell͟ is actually an exoskeleton—the hard outer part of most insects. It’s flat, almost circular, and copper colored, so you can imagine where I got my name. Our larvae cling to the undersides of logs and rocks, where we use scrapers on our legs to gather algae. We also eat bits of dead plants and animals, and feces (poop) from fish, which makes the water cleaner for all the living creatures that share it.",
+            "Eats": {
+                "Text": "Algae, decaying plant and animal matter, feces",
+                "Id": [1]
+            },
+            "EatenBy": {
+                "Text": "Fish, wading birds, amphibians, reptiles",
+                "Id": [5, 6, 7]
+            },
+            "FoundIn": "Undersides of rocks and logs in freshwater streams with moderate or fast currents, or on rocks along shores",
+            "Status": "We are especially sensitive to the quality of the environment, and can’t survive in places where the rocks have a thick layer of algae, fungi, or sediments—all signs of sickness in a watershed habitat. Finding our larvae is a good sign that a freshwater habitat is healthy."
+        },
+        {
+            "Id": 26,
+            "Name": "Wild Celery",
+            "Genus": "Vallisneria americana",
+            "Coords": {
+                "x": 55,
+                "y": 283
+            },
+    		"Body": "Unlike the celery you eat, we are aquatic plants that grow completely beneath the surface of the water. With our deep root systems, we stabilize sediment and shorelines, keeping the soil from washing away downstream. Our roots and stems also snag bits of organic matter that feed many small animal species, which in turn provide food for larger predators. And, we improve water quality by filtering pollutants out of the water.",
+            "Eats": {
+                "Text": "Sunlight and nutrients",
+                "Id": []
+            },
+            "EatenBy": {
+                "Text": "Insects, waterfowl, small mammals",
+                "Id": [5, 6, 7]
+            },
+            "FoundIn": "Ponds, lakes and rivers with depths of 3 to 6 feet",
+            "Status": "If you see fields of me swaying beneath the surface, the wetland environment is probably healthy. But, I’m under pressure from habitat loss, poor water quality, increased salinity, and erosion, which dumps heavy sediment into the clear, flowing water I need to survive."
         }
     ]
 }
