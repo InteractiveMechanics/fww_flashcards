@@ -10,7 +10,7 @@ h1 {
   line-height: 1.8; }
   h1 small {
     color: #939598;
-    font-size: 36px;
+    font-size: 22px;
     display: block; }
 
 p {
@@ -69,10 +69,20 @@ body {
   z-index: 9; }
   #modal.in .modal-inner {
     top: 100px; }
+  #modal .close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none; }
+    #modal .close img {
+      width: 30px; }
   #modal .modal-inner {
-    width: 1720px;
-    height: 930px;
-    left: 100px;
+    width: 1206px;
+    height: 618px;
+    left: 75px;
     top: 0;
     position: absolute;
     transition: 0.5s all; }
@@ -91,7 +101,7 @@ body {
     width: 40%;
     background: white; }
     #modal .modal-content .modal-content-inner {
-      padding: 50px;
+      padding: 0px 50px 50px;
       position: absolute;
       top: 0;
       bottom: 100px;
@@ -103,7 +113,7 @@ body {
       height: 100px;
       position: absolute; }
   #modal .modal-pagination {
-    width: 1720px;
+    width: 1206px;
     height: 50px;
     bottom: 0;
     position: absolute;
@@ -112,17 +122,39 @@ body {
       float: right;
       padding: 20px 0;
       display: block; }
+      #modal .modal-pagination .next:after {
+        content: url("/assets/images/icon-next.svg");
+        padding-left: 6px; }
     #modal .modal-pagination .prev {
       float: left;
       padding: 20px 0;
       display: block; }
+      #modal .modal-pagination .prev:before {
+        content: url("/assets/images/icon-prev.svg");
+        padding-right: 6px; }
 
 .modal-food-chain {
-  display: flex; }
+  display: flex;
+  box-shadow: 0px -4px 27px 0px rgba(116, 102, 102, 0.71); }
   .modal-food-chain > div {
     width: 14.28%;
-    background-position: center bottom;
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat; }
+  .modal-food-chain .active:after {
+    content: '';
+    border-bottom: 1px solid #ffffff;
+    position: absolute;
+    height: 2px;
+    background: transparent;
+    width: 69px;
+    bottom: 20px; }
+  .modal-food-chain .eats:after {
+    content: 'I eat';
+    color: #ffffff; }
+  .modal-food-chain .eatenby:after {
+    content: 'Eats me';
+    color: #ffffff; }
   .modal-food-chain .modal-food-chain-1 {
     background-color: #869C5E;
     background-image: url(/assets/images/foodchain_1.svg); }

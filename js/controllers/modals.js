@@ -6,6 +6,7 @@ Modals = (function() {
     var loadModal = function() {
         clearModal();
         clearAnimation();
+        //closeModal();
 
         var $modal = $('#modal');
         var id = $(this).data('id');
@@ -24,6 +25,8 @@ Modals = (function() {
         $('#modal-template').tmpl(data.Characters[id]).appendTo($modal);
         buildPagination(id);
         buildFoodChain(eats, eaten);
+
+
     }
     var buildPagination = function(id) {
         var $pagination = $('#modal .modal-pagination');
@@ -50,12 +53,29 @@ Modals = (function() {
     var clearAnimation = function() {
         $('#animation').html('');
     }
+
+    var hideModal = function() {
+        var $modal = $('#modal');
+        if (!$modal.hasClass('hidden')) {
+            $modal.addClass('hidden');
+        }
+    }
+
+    var closeModal = function() {
+        $(document).on('click tap', '.close', hideModal);
+    }
+    closeModal();
+
     var bindEvents = function() {
         $(document).on('click tap', '.pagination-control', loadModal);
     }
 
+    
     return {
         init: init,
         loadModal: loadModal
     }
+
 })();
+
+   
