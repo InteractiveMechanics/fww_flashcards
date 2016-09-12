@@ -149,6 +149,9 @@ body {
     background: transparent;
     width: 69px;
     bottom: 20px; }
+  .modal-food-chain .eats-label {
+    position: absolute;
+    text-align: center; }
   .modal-food-chain .eats:after {
     content: 'I eat';
     color: #ffffff; }

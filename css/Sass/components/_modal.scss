@@ -113,6 +113,11 @@
         }
     }
 
+    .eats-label {
+        position: absolute;
+        text-align: center;
+    }
+
     .eats {
         &:after {
             content: 'I eat';

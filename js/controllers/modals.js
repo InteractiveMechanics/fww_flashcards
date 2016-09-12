@@ -6,7 +6,7 @@ Modals = (function() {
     var loadModal = function() {
         clearModal();
         clearAnimation();
-        //closeModal();
+        
 
         var $modal = $('#modal');
         var id = $(this).data('id');
@@ -25,6 +25,7 @@ Modals = (function() {
         $('#modal-template').tmpl(data.Characters[id]).appendTo($modal);
         buildPagination(id);
         buildFoodChain(eats, eaten);
+        testingThings();
 
 
     }
@@ -69,6 +70,21 @@ Modals = (function() {
     var bindEvents = function() {
         $(document).on('click tap', '.pagination-control', loadModal);
     }
+
+    
+    var testingThings = function() {
+    var width = 68;
+    var firstEats = $('.eats:first');
+    var firstEatsOffset = firstEats.offset()
+    var lastEats = $('.eats:last').offset();
+
+    var startX = firstEatsOffset.left;
+    
+    var endX = lastEats.left + width;
+
+    $('.eats-label').css({'width': endX - startX, 'left': startX}).html('I eat');
+    }
+
 
     
     return {
