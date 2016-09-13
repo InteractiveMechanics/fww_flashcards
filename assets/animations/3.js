@@ -12,15 +12,23 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"./assets/animations/images/Bosmina_atlas_.png", id:"Bosmina_atlas_"}
+		{src:"images/bkgrtiles.png", id:"bkgrtiles"},
+		{src:"images/NewPatternSwatch2.png", id:"NewPatternSwatch2"},
+		{src:"images/NewPatternSwatch3.png", id:"NewPatternSwatch3"},
+		{src:"images/NewPatternSwatch6.png", id:"NewPatternSwatch6"},
+		{src:"images/NewPatternSwatch7.png", id:"NewPatternSwatch7"},
+		{src:"images/NewPatternSwatch7_1.png", id:"NewPatternSwatch7_1"},
+		{src:"images/NewPatternSwatch8.png", id:"NewPatternSwatch8"},
+		{src:"images/USGS21IntricateSurface.png", id:"USGS21IntricateSurface"},
+		{src:"images/USGS21IntricateSurface_1.png", id:"USGS21IntricateSurface_1"},
+		{src:"images/USGS22GravelBeach.png", id:"USGS22GravelBeach"},
+		{src:"images/USGS22GravelBeach_1.png", id:"USGS22GravelBeach_1"}
 	]
 };
 
 
 
-lib.ssMetadata = [
-		{name:"Bosmina_atlas_", frames: [[0,0,3046,1050],[3048,260,10,10],[3048,272,10,10],[3048,284,10,10],[3048,296,10,10],[3048,308,10,10],[3048,320,10,10],[3048,148,54,54],[3048,204,54,54],[3048,0,72,72],[3048,74,72,72]]}
-];
+lib.ssMetadata = [];
 
 
 lib.webfontAvailable = function(family) { 
@@ -35,80 +43,69 @@ lib.webfontAvailable = function(family) {
 
 
 (lib.bkgrtiles = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.bkgrtiles);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3046,1050);
 
 
 (lib.NewPatternSwatch2 = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.NewPatternSwatch2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,10,10);
 
 
 (lib.NewPatternSwatch3 = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.NewPatternSwatch3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,10,10);
 
 
 (lib.NewPatternSwatch6 = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.NewPatternSwatch6);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,10,10);
 
 
 (lib.NewPatternSwatch7 = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.NewPatternSwatch7);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,10,10);
 
 
 (lib.NewPatternSwatch7_1 = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.NewPatternSwatch7_1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,10,10);
 
 
 (lib.NewPatternSwatch8 = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.NewPatternSwatch8);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,10,10);
 
 
 (lib.USGS21IntricateSurface = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.USGS21IntricateSurface);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,54,54);
 
 
 (lib.USGS21IntricateSurface_1 = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.USGS21IntricateSurface_1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,54,54);
 
 
 (lib.USGS22GravelBeach = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.USGS22GravelBeach);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,72,72);
 
 
 (lib.USGS22GravelBeach_1 = function() {
-	this.spriteSheet = ss["Bosmina_atlas_"];
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.USGS22GravelBeach_1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,72,72);
 
 
 (lib.Path_15 = function(mode,startPosition,loop) {

@@ -14,13 +14,12 @@
 <title>Bosmina</title>
 <!-- write your code here -->
 <script src="libs/createjs-2015.11.26.min.js"></script>
-<script src="./assets/animations/3.js"></script>
+<script src="3.js"></script>
 <script>
 var canvas, stage, exportRoot;
 function animationInit() {
 	canvas = document.getElementById("canvas");
 	images = images||{};
-	ss = ss||{};
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", handleFileLoad);
 	loader.addEventListener("complete", handleComplete);
