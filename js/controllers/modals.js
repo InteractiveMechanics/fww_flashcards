@@ -25,7 +25,7 @@ Modals = (function() {
         $('#modal-template').tmpl(data.Characters[id]).appendTo($modal);
         buildPagination(id);
         buildFoodChain(eats, eaten);
-        testingThings();
+        positionLabels();
 
 
     }
@@ -72,17 +72,36 @@ Modals = (function() {
     }
 
     
-    var testingThings = function() {
-    var width = 68;
-    var firstEats = $('.eats:first');
-    var firstEatsOffset = firstEats.offset()
-    var lastEats = $('.eats:last').offset();
+    var positionLabels = function() {
+        var foodChain = $('.modal-food-chain').offset().left;
+        var width = 68;
 
-    var startX = firstEatsOffset.left;
+
+        if ($('.modal-food-chain').find('.eats').length > 0) {
+            var firstEats = $('.eats:first').offset();
+            var lastEats = $('.eats:last').offset();
+            
+            var startEats = firstEats.left;
+            var endEats = lastEats.left + width;
+            
+            var eatsLabelLeft = startEats - foodChain;
+
+            $('.eats-label').css({'width': endEats - startEats, 'left': eatsLabelLeft}).html('I eat');
+
+        }
+
+        if ($('.modal-food-chain').find('.eatenby').length > 0) {
+            var firstEatenby = $('.eatenby:first').offset();
+            var lastEatenby = $('.eatenby:last').offset();
+
+            var startEatenby = firstEatenby.left;
+            var endEatenby = lastEatenby.left + width;
+
+            var eatenbyLabelLeft = startEatenby - foodChain;
+
+            $('.eatenby-label').css({'width': endEatenby - startEatenby, 'left': eatenbyLabelLeft}).html('Eats me');
+        }
     
-    var endX = lastEats.left + width;
-
-    $('.eats-label').css({'width': endX - startX, 'left': startX}).html('I eat');
     }
 
 

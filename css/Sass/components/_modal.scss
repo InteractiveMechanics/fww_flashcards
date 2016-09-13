@@ -99,6 +99,7 @@
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
+        position: relative;
     }
 
     .active {
@@ -113,23 +114,11 @@
         }
     }
 
-    .eats-label {
+    .eats-label, .eatenby-label {
         position: absolute;
         text-align: center;
-    }
-
-    .eats {
-        &:after {
-            content: 'I eat';
-            color: #ffffff;
-        }
-    }
-
-    .eatenby {
-        &:after {
-            content: 'Eats me';
-            color: #ffffff;
-        }
+        bottom: 0px;
+        color: #ffffff;
     }
 
     .modal-food-chain-1 {
@@ -161,3 +150,10 @@
         background-image: url(/assets/images/foodchain_7.svg);
     }
 }
+
+.eats-label {
+        position: absolute;
+        text-align: center;
+        bottom: 0px;
+        color: #ffffff;
+    }
