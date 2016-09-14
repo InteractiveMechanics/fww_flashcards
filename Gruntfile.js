@@ -27,4 +27,4 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['watch']);
 };
 
-// CLI command: grunt serve 
+// to run server http-server -p 8000

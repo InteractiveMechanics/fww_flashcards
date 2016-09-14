@@ -55,8 +55,8 @@ body {
   z-index: 3; }
   #hotspots .hotspot {
     background: rgba(255, 0, 0, 0.2);
-    width: 165px;
-    height: 170px;
+    width: 112px;
+    height: 114px;
     position: absolute; }
 
 #modal {

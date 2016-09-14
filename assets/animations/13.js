@@ -12,17 +12,17 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/bkgrtiles.png", id:"bkgrtiles"},
-		{src:"images/NewPatternSwatch2.png", id:"NewPatternSwatch2"},
-		{src:"images/NewPatternSwatch3.png", id:"NewPatternSwatch3"},
-		{src:"images/NewPatternSwatch6.png", id:"NewPatternSwatch6"},
-		{src:"images/NewPatternSwatch7.png", id:"NewPatternSwatch7"},
-		{src:"images/NewPatternSwatch7_1.png", id:"NewPatternSwatch7_1"},
-		{src:"images/NewPatternSwatch8.png", id:"NewPatternSwatch8"},
-		{src:"images/USGS21IntricateSurface.png", id:"USGS21IntricateSurface"},
-		{src:"images/USGS21IntricateSurface_1.png", id:"USGS21IntricateSurface_1"},
-		{src:"images/USGS22GravelBeach.png", id:"USGS22GravelBeach"},
-		{src:"images/USGS22GravelBeach_1.png", id:"USGS22GravelBeach_1"}
+		{src:"./assets/animations/images/bkgrtiles.png", id:"bkgrtiles"},
+		{src:"./assets/animations/images/NewPatternSwatch2.png", id:"NewPatternSwatch2"},
+		{src:"./assets/animations/images/NewPatternSwatch3.png", id:"NewPatternSwatch3"},
+		{src:"./assets/animations/images/NewPatternSwatch6.png", id:"NewPatternSwatch6"},
+		{src:"./assets/animations/images/NewPatternSwatch7.png", id:"NewPatternSwatch7"},
+		{src:"./assets/animations/images/NewPatternSwatch7_1.png", id:"NewPatternSwatch7_1"},
+		{src:"./assets/animations/images/NewPatternSwatch8.png", id:"NewPatternSwatch8"},
+		{src:"./assets/animations/images/USGS21IntricateSurface.png", id:"USGS21IntricateSurface"},
+		{src:"./assets/animations/images/USGS21IntricateSurface_1.png", id:"USGS21IntricateSurface_1"},
+		{src:"./assets/animations/images/USGS22GravelBeach.png", id:"USGS22GravelBeach"},
+		{src:"./assets/animations/images/USGS22GravelBeach_1.png", id:"USGS22GravelBeach_1"}
 	]
 };
 
