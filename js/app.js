@@ -7,5 +7,6 @@ $(document).ready(function(){
         Utilities.init();
         Hotspots.init();
         Modals.init();
+        Attract.init();
     }, 'json');
 });

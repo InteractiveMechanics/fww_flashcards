@@ -20,7 +20,7 @@ Modals = (function() {
             });
             setTimeout(function(){ 
                 $modal.addClass('in');
-            }, 3000);
+            }, 6000);
         }
         $('#modal-template').tmpl(data.Characters[id]).appendTo($modal);
         buildPagination(id);
@@ -57,9 +57,11 @@ Modals = (function() {
 
     var hideModal = function() {
         var $modal = $('#modal');
-        if (!$modal.hasClass('hidden')) {
-            $modal.addClass('hidden');
-        }
+        $modal.removeClass('in');
+
+        setTimeout(function(){ 
+             $modal.addClass('hidden');   
+        }, 1000);
     }
 
     var closeModal = function() {
