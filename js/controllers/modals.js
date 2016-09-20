@@ -20,7 +20,7 @@ Modals = (function() {
             });
             setTimeout(function(){ 
                 $modal.addClass('in');
-            }, 6000);
+            }, 5000);
         }
         $('#modal-template').tmpl(data.Characters[id]).appendTo($modal);
         buildPagination(id);
