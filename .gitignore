@@ -3,6 +3,9 @@
 *.css.map
 
 
+#Video Files
+assets/videos/
+
 # NODE STUFF
 
 # Logs
