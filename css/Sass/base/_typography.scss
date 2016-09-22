@@ -11,8 +11,8 @@
     font-family: 'TradeGothic LT CondEighteen';
 }
 h1 {
-    font-size: 48px;
-    line-height: 1.8;
+    font-size: 46px;
+    line-height: 1.6;
 
     small {
         color: #939598;
@@ -20,8 +20,15 @@ h1 {
         display: block;
     }
 }
+
+h2 {
+    margin-bottom: 0px;
+}
+
+
 p {
     font-family: 'Adobe Garamond Pro';
     font-size: 21px;
-    line-height: 1.8;
+    line-height: 1.6;
+    margin-top: 0.4em;
 }
