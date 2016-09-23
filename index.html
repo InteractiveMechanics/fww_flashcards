@@ -23,12 +23,6 @@
         <div class="pagination-control" data-id="${Id}">${Name}</div>
     </script>
 
-    <script id="attract-modal" type="text/x-jQuery-tmpl">
-        <div class="modal-inner">
-        
-        </div>
-    </script>
-
     <script id="modal-template" type="text/x-jQuery-tmpl">
         <button class="close"><img src="assets/images/icon-close.svg" alt="close"></button>
         <div class="modal-inner">
@@ -81,11 +75,16 @@
     <script src="./js/controllers/utilities.js"></script>
     <script src="./js/controllers/hotspots.js"></script>
     <script src="./js/controllers/modals.js"></script>
-    <script src="./jus/controllers/attract.js"></script>
+    <script src="./js/controllers/attract.js"></script>
     <script src="./js/app.js"></script>
     
     <div id="hotspots"></div>
     <div id="modal" class="fade hidden"></div>
+    <div id="attract" class="fade hidden">
+        <div class="modal-inner">
+            <h1>Tap to Close</h1>
+        </div>
+    </div>
     <div id="animation"></div>
     <div id="background"></div>
 </body>
