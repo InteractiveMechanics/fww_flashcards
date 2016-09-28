@@ -11,7 +11,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>Diatom</title>
+<title>diatom</title>
 <!-- write your code here -->
 <script src="libs/createjs-2015.11.26.min.js"></script>
 <script src="./assets/animations/8.js"></script>
@@ -35,7 +35,7 @@ function handleComplete(evt) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib.FWW_TilesAll_v02();
+	exportRoot = new lib.FWW_TilesAll_v03();
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);	
 	//Registers the "tick" event listener.
@@ -73,7 +73,7 @@ function handleComplete(evt) {
 			stage.scaleY = pRatio*sRatio;			
 			lastW = iw; lastH = ih; lastS = sRatio;		
 		}
-	})(true,'both',true,1);	
+	})(true,'both',true,2);	
 }
 </script>
 <!-- write your code here -->
