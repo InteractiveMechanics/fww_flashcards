@@ -24,7 +24,11 @@ Utilities = (function() {
         var $modal = $('#attract');
          if ($modal.hasClass('hidden')) {
             $modal.removeClass('hidden').removeClass('fade');
+            Modals.hideModal();
             }
+
+
+
 
     }
 

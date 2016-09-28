@@ -62,15 +62,15 @@ Modals = (function() {
         setTimeout(function(){ 
              $modal.addClass('hidden');   
         }, 1000);
-    }
 
-    var closeModal = function() {
-        $(document).on('click tap', '.close', hideModal);
+        clearModal();
+        clearAnimation();
     }
-    closeModal();
 
     var bindEvents = function() {
         $(document).on('click tap', '.pagination-control', loadModal);
+        $(document).on('click tap', '.close', hideModal);
+
     }
 
     
@@ -110,7 +110,8 @@ Modals = (function() {
     
     return {
         init: init,
-        loadModal: loadModal
+        loadModal: loadModal,
+        hideModal: hideModal
     }
 
 })();
