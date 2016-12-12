@@ -2,9 +2,14 @@
     transition: 0.5s all;
     opacity: 0;
 }
+
 .hidden {
     display: none;
 }
 .in {
     opacity: 1;
 }
+
+@include scrollbars(#cccccc, white);
+
+

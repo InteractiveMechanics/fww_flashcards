@@ -32,6 +32,7 @@
         position: absolute;
         transition: 0.5s all;
     }
+
     .modal-video-container {
         position: absolute;
         left: 0;
@@ -40,6 +41,30 @@
         background: gray;
         bottom: 50px;
     }
+
+    video {
+        background: #000000;
+    }
+
+    #pause, #play {
+        position: absolute;
+        bottom: 5px;
+        left: 19px;
+        background-color: transparent;
+        border: none;
+        svg {
+        opacity: 0.5;
+        width: 65px;
+        }
+        &:active, &:focus {
+            outline: none;
+            opacity: 0.8
+            svg {
+                opacity: 0.7;
+            }
+        }
+    }
+
     .modal-content {
         position: absolute;
         right: 0;
@@ -69,6 +94,8 @@
         bottom: 0;
         position: absolute;
         color: white;
+        text-transform: uppercase;
+        font-size: 18px;
 
         .next {
             float: right;
