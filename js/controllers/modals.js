@@ -21,6 +21,18 @@ Modals = (function() {
             setTimeout(function(){ 
                 $modal.addClass('in');
             }, 5000);
+        } else {
+            $modal.css('z-index', '6');
+            $('#animation').removeClass('fade');
+            $('#animation').load('/assets/animations/' + id + '.html', function() {
+                animationInit();
+            });
+            setTimeout(function(){ 
+                $modal.addClass('in');
+                fadeAnimation();
+                $modal.css('z-index', '9');
+            }, 6000);
+            
         }
         $('#modal-template').tmpl(data.Characters[id]).appendTo($modal);
         buildPagination(id);
@@ -29,6 +41,9 @@ Modals = (function() {
 
         sendGAEvent('Flashcard: ' + data.Characters[id].Name);
     }
+
+
+
     var buildPagination = function(id) {
         var $pagination = $('#modal .modal-pagination');
 
@@ -55,6 +70,10 @@ Modals = (function() {
         $('#animation').html('');
     }
 
+    var fadeAnimation = function() {
+        $('#animation').addClass('fade');
+    }
+
     var hideModal = function() {
         var $modal = $('#modal');
         $modal.removeClass('in');
@@ -68,10 +87,30 @@ Modals = (function() {
         sendGAEvent('Home Screen');
     }
 
+     var pauseVideo = function() {
+        $video = $("video");
+        $pause = $("#pause");
+        $play = $('#play');
+        $video.get(0).pause();
+        $pause.addClass('hidden');
+        $play.removeClass('hidden');
+    }
+
+    var playVideo = function() {
+        $video = $("video");
+        $pause = $("#pause");
+        $play = $('#play');
+        $video.get(0).play();
+        $pause.removeClass('hidden');
+        $play.addClass('hidden');
+    }
+
+
     var bindEvents = function() {
         $(document).on('click tap', '.pagination-control', loadModal);
         $(document).on('click tap', '.close', hideModal);
-
+        $(document).on('click tap', '#pause', pauseVideo);
+        $(document).on('click tap', '#play', playVideo);
     }
 
     
@@ -107,6 +146,7 @@ Modals = (function() {
     
     }
 
+    
 
     
     return {

@@ -62,7 +62,7 @@
         },
         {
             "Id": 3,
-            "Name": "Bosmina (Water Flea)",
+            "Name": "Water Flea",
             "Genus": "Bosmina, hundreds of possible species",
             "Coords": {
                 "x": 824,
@@ -282,7 +282,7 @@
         },
         {
             "Id": 14,
-            "Name": "Maple Leaf",
+            "Name": "Red Maple",
             "Genus": " In Pennsylvania, Acer rubrum (Red Maple), Acer saccharinum (Silver Maple)",
             "Coords": {
                 "x": 169,
@@ -322,7 +322,7 @@
         },
         {
             "Id": 16,
-            "Name": "Nuphar",
+            "Name": "Yellow Pond Lily",
             "Genus": "Nuphar advena",
             "Coords": {
                 "x": 431,
@@ -462,7 +462,7 @@
         },
         {
             "Id": 23,
-            "Name": "Sturgeon",
+            "Name": " American Sturgeon",
             "Genus": "Acipenser oxyrinchus oxyrinchu, Acipenser brevirostrum, Acipenser oxyrinchus desotoi",
             "Coords": {
                 "x": 693,
