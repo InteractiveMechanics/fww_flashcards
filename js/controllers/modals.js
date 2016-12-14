@@ -27,7 +27,7 @@ Modals = (function() {
         buildFoodChain(eats, eaten);
         positionLabels();
 
-
+        sendGAEvent('Flashcard: ' + data.Characters[id].Name);
     }
     var buildPagination = function(id) {
         var $pagination = $('#modal .modal-pagination');
@@ -65,6 +65,7 @@ Modals = (function() {
 
         clearModal();
         clearAnimation();
+        sendGAEvent('Home Screen');
     }
 
     var bindEvents = function() {

@@ -1,6 +1,6 @@
 Utilities = (function() {
     var timeout = [];
-    var duration = 9000; //90000
+    var duration = 90000; //90000
 
     var init = function() {
         bindEvents();
@@ -25,6 +25,7 @@ Utilities = (function() {
          if ($modal.hasClass('hidden')) {
             $modal.removeClass('hidden').removeClass('fade');
             Modals.hideModal();
+            sendGAEvent('Attract Loop');
             }
 
 
@@ -36,6 +37,7 @@ Utilities = (function() {
         $modal = $('#attract');
         if (!$modal.hasClass('hidden')) {
             $modal.addClass('hidden').addClass('fade');
+            sendGAEvent('Home Screen');
         }
     }
 
