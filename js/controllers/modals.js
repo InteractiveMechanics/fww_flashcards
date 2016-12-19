@@ -15,6 +15,7 @@ Modals = (function() {
 
         if ($modal.hasClass('hidden')) {
             $modal.removeClass('hidden');
+            $('#animation').removeClass('fade');
             $('#animation').load('/assets/animations/' + id + '.html', function() {
                 animationInit();
             });
