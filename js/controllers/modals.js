@@ -1,4 +1,6 @@
 Modals = (function() {
+    var timeout;
+
     var init = function() {
         bindEvents();
     }
@@ -25,16 +27,21 @@ Modals = (function() {
         } else {
             $modal.css('z-index', '6');
             $('#animation').removeClass('fade');
+            
             $('#animation').load('/assets/animations/' + id + '.html', function() {
                 animationInit();
             });
-            setTimeout(function(){ 
+
+            if(timeout) { window.clearTimeout(timeout) }
+            
+            timeout = setTimeout(function(){ 
                 $modal.addClass('in');
                 fadeAnimation();
                 $modal.css('z-index', '9');
             }, 6000);
             
         }
+
         $('#modal-template').tmpl(data.Characters[id]).appendTo($modal);
         buildPagination(id);
         buildFoodChain(eats, eaten);
