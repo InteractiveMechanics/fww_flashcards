@@ -21,7 +21,10 @@ Modals = (function() {
             $('#animation').load('/assets/animations/' + id + '.html', function() {
                 animationInit();
             });
-            setTimeout(function(){ 
+
+            if(timeout) { window.clearTimeout(timeout)}
+
+            timeout = setTimeout(function(){ 
                 $modal.addClass('in');
             }, 5000);
         } else {
