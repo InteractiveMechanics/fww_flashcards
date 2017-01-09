@@ -6,8 +6,8 @@
   font-family: 'TradeGothic LT CondEighteen'; }
 
 h1 {
-  font-size: 46px;
-  line-height: 1.6; }
+  font-size: 45px;
+  line-height: 1.2; }
   h1 small {
     color: #939598;
     font-size: 22px;
@@ -96,8 +96,8 @@ body {
     top: 100px; }
   #modal .close {
     position: absolute;
-    top: 25px;
-    right: 25px;
+    top: 57px;
+    right: 50px;
     width: 40px;
     height: 40px;
     background-color: transparent;
@@ -355,7 +355,7 @@ div.ray24 {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 7;
+  z-index: 20;
   pointer-events: none; }
 
 #bubbles {
