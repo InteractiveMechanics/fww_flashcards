@@ -91,7 +91,7 @@ Modals = (function() {
 
         setTimeout(function(){ 
              $modal.addClass('hidden');   
-        }, 1000);
+        }, 500);
 
         clearModal();
         clearAnimation();
