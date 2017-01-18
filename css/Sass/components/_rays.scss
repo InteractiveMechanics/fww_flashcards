@@ -21,8 +21,8 @@ div.ray {
     height: 0;
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
-    border-left: 600px solid rgba(220, 220, 220, 0.20);
-    filter: blur(7px);
+    border-left: 600px solid rgba(220, 220, 220, 0.1);
+    filter: blur(20px);
 }
 
 

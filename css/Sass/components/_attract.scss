@@ -4,10 +4,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(rgba(160, 176, 190, 0.5), rgba(51, 50, 65, 0.9)); //172, 185, 198
+    background: linear-gradient(rgba(160, 176, 190, 0.65), rgba(51, 50, 65, 1)); //172, 185, 198
     z-index: 9;
-
-
 
     .modal-inner {
     	display: flex;
@@ -36,12 +34,12 @@ div.sun {
     display: none;
     height: 335px;
     width: 335px;
-    background-color: rgba(250, 250, 250, 0.25);
+    background-color: rgba(250, 250, 250, 0.15);
     border-radius: 50%;
     position: absolute;
     top: -186px;
     left: 512px;
-    box-shadow: 10px 10px 10px rgba(250, 250, 250, 0.25);
+    box-shadow: 10px 10px 10px rgba(250, 250, 250, 0.15);
 }
 div.raybase {
     position: absolute;
@@ -54,8 +52,8 @@ div.ray {
     height: 0;
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
-    border-left: 600px solid rgba(220, 220, 220, 0.15);
-    filter: blur(7px);
+    border-left: 600px solid rgba(220, 220, 220, 0.05);
+    filter: blur(20px);
 }
 
 
