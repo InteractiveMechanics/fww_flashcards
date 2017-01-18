@@ -5,7 +5,7 @@
             "Name": "American Eel",
             "Genus": "Anguilla rostrata",
             "Coords": {
-                "x": 431,
+                "x": 955,
                 "y": 460
             },
     		"Body": "I may look like a snake, but I’m really a fish. When it’s time to lay my eggs, I journey hundreds of miles down the rivers of eastern America and far out into the Atlantic Ocean to breed. When the young eels hatch, they return from the ocean to spend their lives in the rivers, and the cycle starts again.",
@@ -25,7 +25,7 @@
             "Name": "American Shad",
             "Genus": "Alosa sapidissima",
             "Coords": {
-                "x": 1217,
+                "x": 955,
                 "y": 327
             },
     		"Body": "I start life far upstream in freshwater rivers, but move down to the salty waters of the Atlantic to spend my adult life in schools containing thousands of fish. I won’t return to the river for 3-6 years, when it’s time to swim upstream and lay my eggs. I’m an important food source for both animals and humans—so important, in fact, that several U.S. cities host annual shad festivals to celebrate me!",
@@ -45,8 +45,8 @@
             "Name": "Amphipod (Scud)",
             "Genus": "Multiple freshwater species in Order Amphipoda",
             "Coords": {
-                "x": 1086,
-                "y": 194
+                "x": 431,
+                "y": 460
             },
     		"Body": "Most people are completely unaware of the thousands of species of amphipods, or \"scuds,\" in aquatic habitats, but we tiny crustaceans serve as an important food source for small animals that, in turn, feed larger animals. In waters with few predators, our populations can reach up to 10,000 per square yard. Our feeding habits help keep water healthy and clean for the other animals that share our habitat.",
             "Eats": {
@@ -65,7 +65,7 @@
             "Name": "Water Flea",
             "Genus": "Bosmina, hundreds of possible species",
             "Coords": {
-                "x": 824,
+                "x": 431,
                 "y": 194
             },
     		"Body": "Although I am commonly called a \"water flea,\" I’m really a tiny crustacean, like a shrimp. I use my front legs to comb through the water for microscopic plants and animals, while my back legs have structures that work like nets to capture more. Many creatures rely on me for their food, so I’m a critical link between the algae at the base of the food chain and larger animals at the top.",
@@ -85,8 +85,8 @@
             "Name": "Brook Trout",
             "Genus": "Salvelinus fontinalis",
             "Coords": {
-                "x": 1086,
-                "y": 327
+                "x": 955,
+                "y": 194
             },
     		"Body": "I’m more than just a fish. I’m a nursery for the tiny young larvae, or \"glochidia,\" of freshwater mussels. Floating glochidia attach to my gills, where they live as harmless parasites as they grow. When they’re big enough, the hitchhiking mussels drop off and settle down into the beds of the clear, cold streams that we both need to survive. No brook trout means no mussels!",
             "Eats": {
@@ -125,7 +125,7 @@
             "Name": "Caddisfly",
             "Genus": "In North America, more than 1,000 species within order Trichoptera",
             "Coords": {
-                "x": 38,
+                "x": 562,
                 "y": 327
             },
     		"Body": "Like many aquatic insects, we spend the early stages of our lives completely underwater as larvae. Unlike other insects, however, our larvae are builders! We produce a silk thread that we use to make food-catching nets, stationary homes, or portable cases by sticking together twigs, gravel, sand, or other debris. When it’s time to transform into adult caddisflies, we shed our armored homes, crawl onto land, and spend the rest of our lives as flying insects.",
@@ -145,7 +145,7 @@
             "Name": "Damselfly",
             "Genus": "Multiple species in the suborder Zygoptera in the order Odonata (which also includes dragonflies)",
             "Coords": {
-                "x": 431,
+                "x": 693,
                 "y": 327
             },
     		"Body": "We may look like dragonflies, but you can tell us apart if you know what to look for. We are usually smaller and more delicate looking than dragonflies, and we hold our wings along our bodies—not outstretched—when resting. We feed on huge quantities of small insects such as mosquitoes and gnats, helping to keep pest populations in check.",
@@ -165,8 +165,8 @@
             "Name": "Diatom",
             "Genus": "More than 600 species in Pennsylvania and the northeast",
             "Coords": {
-                "x": 693,
-                "y": 194
+                "x": 300,
+                "y": 327
             },
     		"Body": "We are algae, but we encase our soft, singled-celled bodies in hard silica shells that come in an amazing array of geometric designs. Like other algae, we use photosynthesis to turn sunlight into food. In the process, we release oxygen into the water, helping other animals to breathe. We’re the primary food for a wide range of insects, crustaceans, and fish. Without us, life in an aquatic ecosystem can vanish.",
             "Eats": {
@@ -185,8 +185,8 @@
             "Name": "Dragonfly",
             "Genus": "Erythemis simplicicollis (Eastern Pondhawk), Pachydiplax longipennis (Blue Dasher), Anax junius (Green Darner), Progomphus obscurus (Sanddragon), Libellula vibrans (Great Blue Skimmer), Celithemis eponina (Halloween Pennant), Libellula lydia (Whitetail Skimmer), Perithemis tenera (Eastern Amberwing)",
             "Coords": {
-                "x": 300,
-                "y": 327
+                "x": 693,
+                "y": 194
             },
     		"Body": "For hundreds of millions of years, my kind have been a common sight in many watershed environments, flitting above the surface of the water like flashing jewels in displays of aerial acrobatics. We are ferocious hunters, each one of us eating hundreds of mosquitoes, flies, gnats, midges, and wasps each day.  Because of this, we are important pest controllers, keeping insect populations in check so they don’t overrun a habitat.",
             "Eats": {
@@ -205,8 +205,8 @@
             "Name": "Fishing Spider",
             "Genus": "Dolomedes triton and Dolomedes tenebrosus, respectively",
             "Coords": {
-                "x": 693,
-                "y": 327
+                "x": 824,
+                "y": 194
             },
     		"Body": "Unlike my web-spinning cousins, I’m completely at home on the water without a web. I can swim by rowing my legs, or rely on the water-resistant hairs all over my body to walk across the surface. I can even dive by trapping a bubble of air between my legs and breathing from it using lungs on my abdomen. I can stay down for more than half an hour with my bubble, hunting prey and hiding from predators.",
             "Eats": {
@@ -225,8 +225,8 @@
             "Name": "Freshwater Mussel",
             "Genus": "Margaritifera margaritifera",
             "Coords": {
-                "x": 562,
-                "y": 327
+                "x": 693,
+                "y": 460
             },
     		"Body": "I grow slowly, but I can live a long time—as many as 100 years or more! I start life as a tiny larva called a \"glochidia\" that requires a fish host to survive until I’m big enough to live on my own. I feed by inhaling water and filtering out tiny organic particles of food. Once, when we were abundant, this filter feeding helped clean the water for all species, but there are so few of us now that we can no longer perform this role in freshwater ecosystems.",
             "Eats": {
@@ -245,8 +245,8 @@
             "Name": "Great Blue Heron",
             "Genus": "Ardea herodias",
             "Coords": {
-                "x": 955,
-                "y": 460
+                "x": 1217,
+                "y": 194
             },
     		"Body": "I have specially shaped neck vertebrae that give my head and sharp beak a faster and longer strike than normal, making me a top predator in the wetlands. Herons also like to congregate at fish hatcheries, where prey is easy to come by. Fish farmers didn’t care for us at first, but a study discovered that we mostly ate diseased fish that were easy pickings. Our hunting actually improves the health of the other fish.",
             "Eats": {
@@ -265,8 +265,8 @@
             "Name": "Largemouth Bass",
             "Genus": "Micropterus salmoides",
             "Coords": {
-                "x": 562,
-                "y": 460
+                "x": 1086,
+                "y": 194
             },
     		"Body": "Unlike many animals, the male of our species is responsible for the young. He creates a nest in the riverbed where the female lays thousands of eggs. He fiercely guards the eggs until they hatch, and then stays with the school of larvae for up to a month while they feed on tiny animals and grow large enough to survive on their own. If they live long enough, they’ll become one of the largest predators in the watershed.",
             "Eats": {
@@ -285,8 +285,8 @@
             "Name": "Red Maple",
             "Genus": " In Pennsylvania, Acer rubrum (Red Maple), Acer saccharinum (Silver Maple)",
             "Coords": {
-                "x": 169,
-                "y": 194
+                "x": 38,
+                "y": 327
             },
     		"Body": "When maple trees drop their leaves in fall and winter, we drift into streams and ponds. There we decay and create a rich layer of organic matter on the streambed that feeds microorganisms, larval insects, and tiny fish that form the base of a healthy food chain. In spring and summer, I also provide anchors for eggs, hiding places for small fish and insects, and hunting platforms for tiny amphibians, insects, and spiders. A floating maple leaf is an ecosystem all its own!",
             "Eats": {
@@ -305,7 +305,7 @@
             "Name": "Northern Water Snake",
             "Genus": "Nerodia sipedon",
             "Coords": {
-                "x": 824,
+                "x": 1086,
                 "y": 460
             },
     		"Body": "We water snakes are fierce predators, but we are not venomous. I have to hunt by stealth to catch my prey, which I swallow whole. When I feel threatened, I can release a foul-smelling, musky odor to deter predators. However, I’m more likely to escape by submerging beneath the water, where I can stay for up to 90 minutes before coming up for air.",
@@ -325,8 +325,8 @@
             "Name": "Yellow Pond Lily",
             "Genus": "Nuphar advena",
             "Coords": {
-                "x": 431,
-                "y": 194
+                "x": 169,
+                "y": 327
             },
     		"Body": "My round or heart-shaped leaves can grow up to 12 inches wide. They grow from a long stalk anchored by roots to the muddy bottom. These leaves provide resting places for insects and birds, a place where insects and amphibians can attach their eggs, and shade and shelter for fish. In summer, I grow yellow, globe-like flowers with thick petals that encase a pod loaded with seeds—an unusual relic from the earliest evolution of flowering plants.",
             "Eats": {
@@ -345,8 +345,8 @@
             "Name": "Osprey",
             "Genus": "Pandion haliaetus",
             "Coords": {
-                "x": 1086,
-                "y": 460
+                "x": 1217,
+                "y": 327
             },
     		"Body": "We are unique among North American birds of prey for our strict diet of live fish, and our ability to dive and catch them in water up to three feet deep. We search for fish by flying steadily over or circling high above relatively shallow water. We often hover briefly before diving feet-first to grab our prey. Barbed pads on the soles of our feet help us keep a grip on our slippery meals.",
             "Eats": {
@@ -365,8 +365,8 @@
             "Name": "Painted Turtle",
             "Genus": "Chrysemys picta",
             "Coords": {
-                "x": 955,
-                "y": 327
+                "x": 824,
+                "y": 460
             },
     		"Body": "As cold-blooded reptiles, soaking up sunlight warms us, gives us the energy to move, and helps rid us of parasites such as leeches that don’t care for light. We like to bask in large groups on logs and rocks. At the first sign of danger, though, our entire group will dive back into the water to hide.",
             "Eats": {
@@ -385,7 +385,7 @@
             "Name": "Phytoplankton",
             "Genus": "Thousands of varieties",
             "Coords": {
-                "x": 562,
+                "x": 300,
                 "y": 194
             },
     		"Body": "We are tiny, free-floating, single-celled plants, also called \"algae.\" A single drop of water from a healthy aquatic environment may have thousands of microscopic phytoplankton in it.  Don’t be fooled by our small size, though. We are the key to life in aquatic habitats because we are the primary producers of oxygen and food, forming the base of the complex food webs in these ecosystems.",
@@ -405,7 +405,7 @@
             "Name": "Pickerelweed",
             "Genus": "Pontederia cordata",
             "Coords": {
-                "x": 300,
+                "x": 169,
                 "y": 194
             },
     		"Body": "I grow and produce my purple flowers in areas where water levels change with tides and floods. Since soils in flooded areas are very low in oxygen, I can’t use my roots to get oxygen from the soil. Instead, my stems and leaves have air-filled chambers that help oxygen pass into and through me. Some of the oxygen in these chambers actually leaks into the soil, providing air for microorganisms. In a way, I breathe for them!",
@@ -445,8 +445,8 @@
             "Name": "Stonefly",
             "Genus": "In the northeast US/Pennsylvania, more than 100 species within order Plecoptera",
             "Coords": {
-                "x": 169,
-                "y": 327
+                "x": 562,
+                "y": 460
             },
     		"Body": "You can find us in almost every freshwater aquatic environment, and we’re an important food source for many kinds of fish. During the early \"nymph\" stages of our lives, we spend 1 to 2 years creeping under submerged rocks and logs, hiding from predators and searching for food. When we transform into our final stage, we crawl out of the water onto stones, molt our tough skins, and emerge as winged adults.",
             "Eats": {
@@ -465,8 +465,8 @@
             "Name": " American Sturgeon",
             "Genus": "Acipenser oxyrinchus oxyrinchu, Acipenser brevirostrum, Acipenser oxyrinchus desotoi",
             "Coords": {
-                "x": 693,
-                "y": 460
+                "x": 1086,
+                "y": 327
             },
     		"Body": "I’m a fish, but my form is a primitive one that goes back many millions of years. My skeleton is mostly cartilage rather than bone, and I have rows of armored plates instead of scales. I hunt using the long barbels hanging under my snout to detect the smell and movement of prey. I can also sense the invisible electric fields generated by all animals.",
             "Eats": {
@@ -485,7 +485,7 @@
             "Name": "Water Bug",
             "Genus": "Thousands of species of aquatic and semi-aquatic \"true bugs\"",
             "Coords": {
-                "x": 1217,
+                "x": 562,
                 "y": 194
             },
     		"Body": "You might recognize some of our many species as \"water striders\"—surface dwelling water bugs that quickly skate or slide across the surface of the water. How do we do it? We use water tension, and tiny velvety hairs on our abdomens that trap air between them, creating a small cushion on which we can float.",
@@ -505,8 +505,8 @@
             "Name": "Water Penny",
             "Genus": "Family Psephenidae, with several species native to the northeastern United States",
             "Coords": {
-                "x": 955,
-                "y": 194
+                "x": 431,
+                "y": 327
             },
     		"Body": "My \"shell\" is actually an exoskeleton—the hard outer part of most insects. It’s flat, almost circular, and copper colored, so you can imagine where I got my name. Our larvae cling to the undersides of logs and rocks, where we use scrapers on our legs to gather algae. We also eat bits of dead plants and animals, and feces (poop) from fish, which makes the water cleaner for all the living creatures that share it.",
             "Eats": {
