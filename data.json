@@ -5,7 +5,7 @@
             "Name": "American Eel",
             "Genus": "Anguilla rostrata",
             "Coords": {
-                "x": 955,
+                "x": 824,
                 "y": 460
             },
     		"Body": "I may look like a snake, but I’m really a fish. When it’s time to lay my eggs, I journey hundreds of miles down the rivers of eastern America and far out into the Atlantic Ocean to breed. When the young eels hatch, they return from the ocean to spend their lives in the rivers, and the cycle starts again.",
@@ -68,7 +68,7 @@
                 "x": 431,
                 "y": 194
             },
-    		"Body": "Although I am commonly called a \"water flea,\" I’m really a tiny crustacean, like a shrimp. I use my front legs to comb through the water for microscopic plants and animals, while my back legs have structures that work like nets to capture more. Many creatures rely on me for their food, so I’m a critical link between the algae at the base of the food chain and larger animals at the top.",
+    		"Body": "Although I am commonly called a \"water flea,\" I’m really a tiny zooplankton. I use my front legs to comb through the water for microscopic plants and animals, while my back legs have structures that work like nets to capture more. Many creatures rely on me for their food, so I’m a critical link between the algae at the base of the food chain and larger animals at the top.",
             "Eats": {
                 "Text": "Phytoplankton, zooplankton",
                 "Id": [1]
@@ -222,8 +222,8 @@
         },
         {
             "Id": 11,
-            "Name": "Freshwater Mussel",
-            "Genus": "Margaritifera margaritifera",
+            "Name": "Freshwater Mussel or Pearly Mussel",
+            "Genus": "Over 300 species in North America",
             "Coords": {
                 "x": 693,
                 "y": 460
@@ -282,7 +282,7 @@
         },
         {
             "Id": 14,
-            "Name": "Red Maple",
+            "Name": "Maple Tree",
             "Genus": " In Pennsylvania, Acer rubrum (Red Maple), Acer saccharinum (Silver Maple)",
             "Coords": {
                 "x": 38,
@@ -365,7 +365,7 @@
             "Name": "Painted Turtle",
             "Genus": "Chrysemys picta",
             "Coords": {
-                "x": 824,
+                "x": 955,
                 "y": 460
             },
     		"Body": "As cold-blooded reptiles, soaking up sunlight warms us, gives us the energy to move, and helps rid us of parasites such as leeches that don’t care for light. We like to bask in large groups on logs and rocks. At the first sign of danger, though, our entire group will dive back into the water to hide.",
